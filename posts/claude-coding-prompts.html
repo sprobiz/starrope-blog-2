@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Claude 3.5 Sonnet Prompt Architecture: Refactoring & Testing | Starrope Tech & AI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Master advanced Claude 3.5 Sonnet prompt engineering templates. Generate perfect integration tests, auto-refactor complex codebases, and eliminate AI hallucinations.">
+  
+  <!-- Link CSS (relative path) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope Tech & AI</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../index.html#articles" class="nav-item">Articles</a>
+        <a href="../about.html" class="nav-item">About</a>
+        <a href="../privacy-policy.html" class="nav-item">Privacy Policy</a>
+        <a href="../terms-of-service.html" class="nav-item">Terms of Service</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">AI & Prompting</div>
+    <h1 class="post-header-title">Advanced Claude 3.5 Sonnet Prompt Architecture: Auto-Refactoring & Production Test Suites</h1>
+    <div class="post-header-meta">
+      <span>Author: Starrope</span>
+      <span>•</span>
+      <span>June 1, 2026</span>
+      <span>•</span>
+      <span>Read Time: ~4 min</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540012"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Header Premium Banner</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      
+      <p>When it comes to advanced code reasoning, Anthropic’s <strong>Claude 3.5 Sonnet</strong> is widely regarded as the industry gold standard. However, the quality of Claude's output is directly linked to the structural integrity of your prompt input. Simple questions like "fix this bug" or "refactor this code" result in generic, superficial answers. To generate enterprise-grade code refactoring or comprehensive unit test suites, you must implement systematic, role-based prompting templates.</p>
+      
+      <h2>1. The Context Injection Architecture</h2>
+      <p>Large language models perform best when they are given detailed context constraints before a task is assigned. Instead of feeding Claude isolated snippets of code, you should wrap your requests inside XML tags. This technique helps Claude parse different data blocks clearly, separating instructions, system guidelines, and target source files.</p>
+      
+      <blockquote>
+        "XML tags provide structural boundaries that prevent the model from confusing instruction commands with the code it is supposed to evaluate."
+      </blockquote>
+      
+      <p>For example, structure your prompts using this exact XML layout to maximize parsing accuracy:</p>
+
+      <pre style="background-color: var(--bg-main); padding: 16px; border-radius: var(--border-radius-sm); border: 1px solid var(--border-light); margin-bottom: 24px; font-family: monospace; overflow-x: auto; color: var(--primary-color); font-size: 14px;">
+&lt;system_persona&gt;
+You are a Principal Software Engineer specializing in security and testing.
+&lt;/system_persona&gt;
+
+&lt;source_code&gt;
+[Paste your codebase files here]
+&lt;/source_code&gt;
+
+&lt;instruction&gt;
+Analyze the source code for memory leaks and generate a complete Jest test suite.
+&lt;/instruction&gt;
+      </pre>
+      
+      <h2>2. Generating Production-Ready Test Suites</h2>
+      <p>One of the most effective use cases for Claude 3.5 Sonnet is automated test generation. However, naive test requests often result in mock assertions that fail in production. To get reliable tests, instruct Claude to focus on boundary conditions, error handling states, and negative mock inputs.</p>
+      
+      <ul>
+        <li><strong>Negative Case Assertions:</strong> Force the model to test how the function responds to null, undefined, or empty string parameter inputs.</li>
+        <li><strong>Spy & Mock Implementations:</strong> Explicitly ask Claude to use Jest's spy function mocks for external API calls to avoid hitting network ports during local testing.</li>
+        <li><strong>Deterministic Outputs:</strong> Require the AI to mock system variables like Date.now() or Math.random() so that test outcomes remain stable.</li>
+      </ul>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540013">
+        <div class="ad-slot-label">In-Article Native Ad Block</div>
+      </ins>
+
+      <h2>3. Expanding Your Prompt Toolkit</h2>
+      <p>While XML wrapping is powerful, pairing it with specialized industry templates takes prompting to the next level. Anthropic provides a official prompt catalog that helps developers configure specialized configurations for algorithmic translation, complex refactoring, and database schema setups.</p>
+
+      <!-- HIGH-CONVERTING REDIRECT CTA BOX (AdSense Vignette 100% Trigger Bridge link) -->
+      <div class="redirect-box">
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 Official Anthropic Claude Prompt Library</h3>
+        <p class="redirect-desc">
+          Click below to explore the official library of production-tested Claude prompt templates.<br>
+          (Redirecting securely via the Starrope proxy channel.)
+        </p>
+        <a href="../apply.html?target=https://docs.anthropic.com/en/prompt-library/library" class="redirect-cta-btn" target="_blank" rel="noopener">
+          Proceed to Prompt Library
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>Conclusion</h2>
+      <p>By moving away from conversational prompts toward systematic XML formatting and structured instruction templates, you can unlock Claude 3.5 Sonnet's full engineering potential. Spend a few minutes organizing your inputs, and you will save hours reviewing outputs.</p>
+      
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      
+      <!-- Bio Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Editor Profile</h3>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+          <div style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-family: var(--font-title);">S</div>
+          <div>
+            <h4 style="font-size: 15px;">Starrope Tech</h4>
+            <span style="font-size: 12px; color: var(--text-muted);">AI & Dev Productivity Partner</span>
+          </div>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">Authoritative insights on AI-assisted coding, programmatic systems, digital nomad visas, and monetization strategies for global creators.</p>
+      </div>
+      
+      <!-- Ad Widget -->
+      <ins class="adsbygoogle ad-slot ad-sidebar sidebar-widget"
+           style="display:block"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540014"
+           data-ad-format="rectangle"
+           data-full-width-responsive="true">
+        <div class="ad-slot-label">Sponsored Resource Links</div>
+      </ins>
+      
+      <!-- Navigation Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Quick Links</h3>
+        <ul class="categories-list">
+          <li><a href="../index.html">🏠 Back to Home</a></li>
+          <li><a href="../about.html">👤 Meet the Editor</a></li>
+        </ul>
+      </div>
+      
+    </aside>
+  </main>
+
+  <!-- AD SLOT (POST BOTTOM DISPLAY) -->
+  <div class="container" style="margin-bottom: 60px;">
+    <ins class="adsbygoogle ad-slot ad-footer"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540015"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Footer Responsive Match Ad</div>
+    </ins>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <a href="../index.html" class="logo footer-info-logo">
+          <div class="logo-icon">S</div>
+          <span class="gradient-text">Starrope Tech & AI</span>
+        </a>
+        <p>Premium guides detailing AI developer ecosystems, production prompting systems, and remote working guidelines for software engineers.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Compliance & Policy</h4>
+        <ul>
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starrope Tech & AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link JS (relative path) -->
+  <script src="../assets/main.js"></script>
+  
+  <!-- Trigger Adsense rendering loop -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</body>
+</html>
