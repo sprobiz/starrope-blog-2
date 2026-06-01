@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "filename": "vscode-vs-cursor-ai.html",
+      "title": "VS Code vs Cursor AI Editor: Why Millions of Developers Are Switching in 2026",
+      "description": "Compare VS Code and Cursor AI Editor in 2026. Explore native LLM integration, Composer mode multi-file edits, and why professional developers are switching.",
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jun 2, 2026",
+      "publish_date": "2026-06-02",
+      "publish_time": "10:00"
+    },
+    {
+      "filename": "claude-artifacts-react.html",
+      "title": "Claude 3.5 Sonnet Artifacts: Fast React Scaffolding & Component Design",
+      "description": "Master React component prototyping and scaffolding with Claude 3.5 Sonnet Artifacts. Learn how to write structured prompts for interactive UI, micro-animations, and production-ready code.",
+      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI & Prompting",
+      "date_display": "Jun 3, 2026",
+      "publish_date": "2026-06-03",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "ergonomic-office-setup.html",
+      "title": "Ultimate Ergonomic Developer Desk Setup: Defeating Tech Neck & Wrist Pain",
+      "description": "Build the ultimate ergonomic desk setup as a software engineer. Compare split keyboards, vertical mice, monitor arm configurations, and active sitting solutions.",
+      "image_url": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=800&q=80",
+      "tag": "Developer Setup",
+      "date_display": "Jun 4, 2026",
+      "publish_date": "2026-06-04",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "chatgpt-prompt-para.html",
+      "title": "ChatGPT Prompt Engineering & The PARA Method: Organizing Your AI Workspace",
+      "description": "Integrate ChatGPT prompt engineering principles with Tiago Forte's PARA system. Organize your AI instructions, context resources, projects, and archives dynamically.",
+      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI & Prompting",
+      "date_display": "Jun 5, 2026",
+      "publish_date": "2026-06-05",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "git-github-saas-founder.html",
+      "title": "Git & GitHub Releasing for Solo SaaS Founders: Auto-Changelogs & CI/CD",
+      "description": "Standardize release management as a solo founder. Master Git branching structures, GitHub Actions release automation, semantic versioning CI/CD, and auto-changelogs.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
+      "tag": "DevOps & SaaS",
+      "date_display": "Jun 6, 2026",
+      "publish_date": "2026-06-06",
+      "publish_time": "08:00"
+    }
+  ]
+}
