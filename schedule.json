@@ -49,6 +49,96 @@
       "date_display": "Jun 6, 2026",
       "publish_date": "2026-06-06",
       "publish_time": "08:00"
+    },
+    {
+      "filename": "anthropic-vs-openai-api.html",
+      "title": "Anthropic Claude API vs OpenAI API: Cost Optimization & Latency Strategies for SaaS Founders in 2026",
+      "description": "Compare Anthropic Claude and OpenAI APIs in 2026. Explore key features like prompt caching, token pricing strategies, latency optimization, and custom orchestration.",
+      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI & Prompting",
+      "date_display": "Jun 7, 2026",
+      "publish_date": "2026-06-07",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "nextjs-server-components-guide.html",
+      "title": "Mastering Next.js Server Components: Common Caching, Data Fetching & Hydration Pitfalls",
+      "description": "Learn to manage Next.js Server Components, Suspense boundaries, and hydration mismatch errors. Master developer caching architectures and optimize backend performance.",
+      "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      "tag": "DevOps & SaaS",
+      "date_display": "Jun 8, 2026",
+      "publish_date": "2026-06-08",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "digital-nomad-hubs-asia.html",
+      "title": "Top Digital Nomad Hubs in Southeast Asia for 2026: Cost, Internet Speed, & Visa Feasibility",
+      "description": "Reviewing Southeast Asia's best digital nomad destinations: Chiang Mai, Bali, Kuala Lumpur, and Da Nang. Compare internet speed, average monthly cost, and remote work visa options.",
+      "image_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
+      "tag": "Digital Nomad Life",
+      "date_display": "Jun 9, 2026",
+      "publish_date": "2026-06-09",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "nextjs-tailwind-cursorrules.html",
+      "title": "Writing Custom .cursorrules for Next.js & Tailwind CSS: The Ultimate Blueprint",
+      "description": "Configure system rules and .cursorrules instructions for clean Tailwind styling and structured Next.js logic. Eliminate hallucination loops in Cursor editor projects.",
+      "image_url": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jun 10, 2026",
+      "publish_date": "2026-06-10",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "coolify-vs-aws-bootstrap.html",
+      "title": "Self-Hosting vs AWS: Why Solo Developers Are Switching to Coolify and Supabase in 2026",
+      "description": "Compare cost structures of Coolify, Supabase, and AWS for bootstrapped SaaS apps. Explore docker-compose setup, auto-deployments, and database backup configurations.",
+      "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
+      "tag": "DevOps & SaaS",
+      "date_display": "Jun 11, 2026",
+      "publish_date": "2026-06-11",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "mechanical-keyboard-ergonomics.html",
+      "title": "The Ultimate Guide to Keyboard Ergonomics: Split Keyboards, Layouts, and QMK/VIA Re-mapping",
+      "description": "Ergonomic workspace configurations for software developers. Learn about split ortholinear layouts, custom keycaps, tenting accessories, and programming keymaps via QMK/VIA.",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+      "tag": "Developer Setup",
+      "date_display": "Jun 12, 2026",
+      "publish_date": "2026-06-12",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "rag-pipeline-embeddings-limit.html",
+      "title": "Building Production-Ready RAG Pipelines: Mitigating Vector Search Latency and Embedding Overlap",
+      "description": "Tackle semantic search challenges. Master vector chunk sizes, embedding overlapping rules, and indexing strategies using hybrid search tools and Pinecone databases.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI & Prompting",
+      "date_display": "Jun 13, 2026",
+      "publish_date": "2026-06-13",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "saas-security-clerk-oauth.html",
+      "title": "SaaS Security Checklist 2026: Setting Up Clerk OAuth, JWT Verification, & Rate Limiting",
+      "description": "Secure your serverless SaaS application. Learn how to validate JWT signatures, manage session persistence, integrate Clerk OAuth providers, and avoid API flooding.",
+      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "tag": "DevOps & SaaS",
+      "date_display": "Jun 14, 2026",
+      "publish_date": "2026-06-14",
+      "publish_time": "07:30"
+    },
+    {
+      "filename": "remote-work-travel-tech-stack.html",
+      "title": "Essential Travel Tech Stack for Remote Developers: eSIMs, Global Accounts, and Security VPNs",
+      "description": "The technical packing checklist for digital nomad developers. Learn how to configure wireguard VPNs, manage mobile data with eSIM cards, and handle payments globally.",
+      "image_url": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+      "tag": "Digital Nomad Life",
+      "date_display": "Jun 15, 2026",
+      "publish_date": "2026-06-15",
+      "publish_time": "07:30"
     }
   ]
 }
