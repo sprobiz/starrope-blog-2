@@ -79,6 +79,32 @@
     <article class="post-content">
       
       <p>As the Cursor AI Editor has grown to replace traditional IDE setups in 2026, developers have discovered that steering the underlying LLM models requires explicit instructions. Creating a project-specific **.cursorrules** configuration file is the single most effective way to enforce coding standards. By setting boundary rules for **Next.js App Router API setups** and **Tailwind CSS utility conventions**, you eliminate repetitive code corrections and model hallucinations.</p>
+
+      <!-- Key Summary Table (Alphanahm Skill) -->
+      <div class="summary-table-container" style="margin: 30px 0;">
+        <table style="width: 100%; border-collapse: collapse; border: 1px solid var(--border-light); font-size: 14.5px; background-color: var(--bg-surface);">
+          <thead>
+            <tr style="background-color: var(--bg-ad); border-bottom: 1px solid var(--border-light);">
+              <th style="padding: 12px 16px; border-right: 1px solid var(--border-light); text-align: left; font-weight: 700;">Focus Area</th>
+              <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Details & Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Editor Tooling</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Custom .cursorrules configurations.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Framework Stack</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Next.js 14+ App Router & Tailwind CSS.</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">AI Optimization</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Preventing LLM hallucinations in component design.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       
       <h2>1. Enforcing Next.js Directory and Styling Strictness</h2>
       <p>By default, models like Claude 3.5 Sonnet or GPT-4o may write outdated Page Router syntax or generic CSS patterns. Your `.cursorrules` file should explicitly instruct the editor to utilize Next.js App Router files, server actions (`'use server'`), and strict TypeScript mappings. It should also forbid inline HTML styling, forcing the model to write utility classes.</p>
@@ -138,6 +164,32 @@
 
       <h2>Conclusion</h2>
       <p>Investing ten minutes to outline your project standards in a `.cursorrules` file yields massive dividends. The editor automatically picks up this context during chats and edits, aligning output code with your exact engineering requirements from the first prompt.</p>
+
+      <!-- FAQ Section (Alphanahm Skill) -->
+      <div class="faq-section" style="margin-top: 40px; border-top: 1px solid var(--border-light); padding-top: 30px; margin-bottom: 30px;">
+        <h3 style="font-size: 20px; margin-bottom: 20px; color: var(--text-main);">❓ Frequently Asked Questions (FAQ)</h3>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">What is a .cursorrules file?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">A configuration file in the project root that tells Cursor's AI assistant exactly how to style components and write code.</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">How does this prevent AI hallucination?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">By strictly defining the directory structure, styling patterns, and deprecation warnings.</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">Can I share my .cursorrules across projects?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">Yes, you can copy the blueprint file into any new Next.js or Tailwind repository.</p>
+        </details>
+      </div>
+
+      <!-- Author Profile Box (Alphanahm Skill) -->
+      <div class="author-box" style="margin-top: 50px; padding: 24px; border: 1px solid var(--border-light); border-radius: var(--border-radius-md); display: flex; align-items: center; gap: 20px; background: rgba(255, 255, 255, 0.02); margin-bottom: 20px;">
+        <div style="font-size: 28px; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; flex-shrink: 0; box-shadow: 0 4px 12px hsla(var(--hue), 95%, 48%, 0.2);">✍️</div>
+        <div>
+          <h5 style="margin: 0; font-size: 15.5px; font-weight: 700; color: var(--text-main);">Starrope Tech Editor</h5>
+          <p style="margin: 6px 0 0 0; font-size: 13.5px; color: var(--text-muted); line-height: 1.5;">Specializes in AI workflows, developer environments, and digital nomad infrastructure. Curating verified, actionable technical guides for global creators.</p>
+        </div>
+      </div>
       
     </article>
     

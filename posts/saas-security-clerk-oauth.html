@@ -79,6 +79,32 @@
     <article class="post-content">
       
       <p>Securing user data is the most critical requirement when launching a software-as-a-service (SaaS) application. In 2026, building authentication systems from scratch is widely considered a liability. Modern developers delegate authentication to specialized providers like **Clerk** while securing their backend API endpoints using **JSON Web Token (JWT) verification** and custom **Rate Limiting filters** to block malicious bots.</p>
+
+      <!-- Key Summary Table (Alphanahm Skill) -->
+      <div class="summary-table-container" style="margin: 30px 0;">
+        <table style="width: 100%; border-collapse: collapse; border: 1px solid var(--border-light); font-size: 14.5px; background-color: var(--bg-surface);">
+          <thead>
+            <tr style="background-color: var(--bg-ad); border-bottom: 1px solid var(--border-light);">
+              <th style="padding: 12px 16px; border-right: 1px solid var(--border-light); text-align: left; font-weight: 700;">Focus Area</th>
+              <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Details & Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">SaaS Security</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Auth integration and session management.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Key Libraries</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Clerk Auth, JWT token validation.</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Protection</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Rate limiting APIs and CORS configuration.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       
       <h2>1. Outsourcing Authentication Safely: Integrating Clerk OAuth</h2>
       <p>Clerk provides a drop-in authentication suite that handles OAuth logins (Google, GitHub, Apple), multi-factor authentication (MFA), and session management natively. When a user logs in, Clerk signs a cryptographic JWT on the client side, which is then sent along with every subsequent backend API request inside the Authorization header.</p>
@@ -139,6 +165,31 @@
       <h2>Conclusion</h2>
       <p>Securing a SaaS application requires layers of defense. By outsourcing identity management to Clerk, validating JWT tokens in middleware files, and restricting access rates through Redis rate limiters, you shield your product from attacks and guarantee continuous uptime for your users.</p>
       
+      <!-- FAQ Section (Alphanahm Skill) -->
+      <div class="faq-section" style="margin-top: 40px; border-top: 1px solid var(--border-light); padding-top: 30px; margin-bottom: 30px;">
+        <h3 style="font-size: 20px; margin-bottom: 20px; color: var(--text-main);">❓ Frequently Asked Questions (FAQ)</h3>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">Why use Clerk instead of custom auth?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">Clerk handles MFA, social logins, and token rotation out-of-the-box, saving weeks of dev time.</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">How do you validate Clerk JWTs in the backend?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">By checking the signature using Clerk's public JSON Web Key Set (JWKS).</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">What is the best way to prevent API flooding?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">Implementing IP-based rate limiting using Upstash Redis or local middleware.</p>
+        </details>
+      </div>
+
+      <!-- Author Profile Box (Alphanahm Skill) -->
+      <div class="author-box" style="margin-top: 50px; padding: 24px; border: 1px solid var(--border-light); border-radius: var(--border-radius-md); display: flex; align-items: center; gap: 20px; background: rgba(255, 255, 255, 0.02); margin-bottom: 20px;">
+        <div style="font-size: 28px; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; flex-shrink: 0; box-shadow: 0 4px 12px hsla(var(--hue), 95%, 48%, 0.2);">✍️</div>
+        <div>
+          <h5 style="margin: 0; font-size: 15.5px; font-weight: 700; color: var(--text-main);">Starrope Tech Editor</h5>
+          <p style="margin: 6px 0 0 0; font-size: 13.5px; color: var(--text-muted); line-height: 1.5;">Specializes in AI workflows, developer environments, and digital nomad infrastructure. Curating verified, actionable technical guides for global creators.</p>
+        </div>
+      </div>
     </article>
     
     <!-- RIGHT: SIDEBAR -->

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backend Development 101: Building Your First API Server with Node.js and Express | Starrope Tech & AI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="A beginner-friendly guide to building a RESTful API server using Node.js and the Express framework. Learn routing, middleware setup, and request-response cycles.">
+  <meta name="keywords" content="Node.js, Express framework, RESTful API, Backend Server, JavaScript Backend, Web Development, API routing">
+  
+  <!-- Link CSS (relative path to main assets) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope Tech & AI</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../index.html#articles" class="nav-item">Articles</a>
+        <a href="../about.html" class="nav-item">About</a>
+        <a href="../privacy-policy.html" class="nav-item">Privacy Policy</a>
+        <a href="../terms-of-service.html" class="nav-item">Terms of Service</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">Web Development</div>
+    <h1 class="post-header-title">Backend Development 101: Building Your First API Server with Node.js and Express</h1>
+    <div class="post-header-meta">
+      <span>Author: Starrope</span>
+      <span>•</span>
+      <span>June 23, 2026</span>
+      <span>•</span>
+      <span>Read Time: ~4 min</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540004"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Header Premium Banner</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      
+      <p>Building beautiful user interfaces is highly rewarding, but web apps need a backend database connection to manage dynamic data. If you want to handle user registration, database transactions, or payment integrations, you need a backend API server. In this beginner guide, we break down server development by building a RESTful API server from scratch using <strong>Node.js</strong> and the lightweight <strong>Express</strong> framework.</p>
+
+      <!-- Key Summary Table (Alphanahm Skill) -->
+      <div class="summary-table-container" style="margin: 30px 0;">
+        <table style="width: 100%; border-collapse: collapse; border: 1px solid var(--border-light); font-size: 14.5px; background-color: var(--bg-surface);">
+          <thead>
+            <tr style="background-color: var(--bg-ad); border-bottom: 1px solid var(--border-light);">
+              <th style="padding: 12px 16px; border-right: 1px solid var(--border-light); text-align: left; font-weight: 700;">Focus Area</th>
+              <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Details & Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Backend Stack</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Node.js runtime & Express.js framework.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Key Concepts</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">REST APIs, routing, middleware controllers.</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 16px; border-right: 1px solid var(--border-light); font-weight: 600; color: var(--primary-color);">Deployment</td>
+              <td style="padding: 12px 16px; color: var(--text-main);">Dockerizing Express servers for cloud hosting.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h2>1. Setting Up Your Environment: NPM and Package Configurations</h2>
+      <p>Node.js is a JavaScript runtime environment built on Chrome's V8 engine that allows us to run JS code outside of the browser. Before writing code, initialize your project folder, create a `package.json` file, and install Express using your command prompt:</p>
+      <pre><code>mkdir my-api-server && cd my-api-server
+npm init -y
+npm install express</code></pre>
+      
+      <blockquote>
+        "Express is the industry standard minimal routing framework for Node.js, making it easy to create RESTful APIs, configure middleware, and listen to incoming HTTP requests."
+      </blockquote>
+      
+      <h2>2. Writing the Server Code: Express Routing and JSON Requests</h2>
+      <p>Create a file named `server.js` and write the following code. We configure a basic server that listens on port 3000 and responds to GET requests with JSON metadata:</p>
+      <pre><code>const express = require('express');
+const app = express();
+const PORT = 3000;
+
+app.use(express.json()); // Middleware to parse incoming JSON bodies
+
+app.get('/api/users', (req, res) => {
+  res.json([
+    { id: 1, name: 'Alice Smith' },
+    { id: 2, name: 'Bob Jones' }
+  ]);
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});</code></pre>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540005">
+        <div class="ad-slot-label">In-Article Native Ad Block</div>
+      </ins>
+
+      <h2>3. Understanding RESTful Methods and API Testing</h2>
+      <p>When designing APIs, follow REST conventions by matching HTTP verbs to database operations: GET for reading data, POST for creating new entries, PUT for updates, and DELETE for removals. To test your server endpoints without a frontend interface, utilize API testing clients like Postman or VS Code extensions like Thunder Client to verify response codes and payloads.</p>
+
+      <div class="redirect-box">
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 Official Node.js Resource Center</h3>
+        <p class="redirect-desc">
+          Download the latest stable Node.js runtime installer and read official guides to master asynchronous backend logic.<br>
+          (Redirecting securely to official downloads page.)
+        </p>
+        <a href="../apply.html?target=https://nodejs.org" class="redirect-cta-btn" target="_blank" rel="noopener">
+          Download Node.js Runtime
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>Conclusion</h2>
+      <p>Building a backend server is not as difficult as it sounds. With Node.js and Express, you can boot up a working API endpoint in less than ten lines of code. Once you understand routing and request-response cycles, you can connect database engines like MongoDB or PostgreSQL to persist user information. Run `node server.js` in your terminal today and launch your developer journey.</p>
+      
+      <!-- FAQ Section (Alphanahm Skill) -->
+      <div class="faq-section" style="margin-top: 40px; border-top: 1px solid var(--border-light); padding-top: 30px; margin-bottom: 30px;">
+        <h3 style="font-size: 20px; margin-bottom: 20px; color: var(--text-main);">❓ Frequently Asked Questions (FAQ)</h3>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">What is the purpose of middleware in Express?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">Middleware functions execute code, modify request/response objects, and end the request cycle (e.g., logging or auth checks).</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">Why choose Node.js for API servers?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">Its non-blocking, event-driven I/O model makes it highly scalable and memory-efficient for I/O-heavy apps.</p>
+        </details>
+        <details style="margin-bottom: 16px; padding: 16px; background-color: var(--bg-main); border: 1px solid var(--border-light); border-radius: var(--border-radius-sm); cursor: pointer;">
+          <summary style="font-weight: 600; font-size: 15px; color: var(--text-main); outline: none;">How do you handle CORS errors in Express?</summary>
+          <p style="margin-top: 12px; margin-bottom: 0; font-size: 14.5px; color: var(--text-muted); line-height: 1.6;">By installing and configuring the cors npm package to allow requests from specific client domains.</p>
+        </details>
+      </div>
+
+      <!-- Author Profile Box (Alphanahm Skill) -->
+      <div class="author-box" style="margin-top: 50px; padding: 24px; border: 1px solid var(--border-light); border-radius: var(--border-radius-md); display: flex; align-items: center; gap: 20px; background: rgba(255, 255, 255, 0.02); margin-bottom: 20px;">
+        <div style="font-size: 28px; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; flex-shrink: 0; box-shadow: 0 4px 12px hsla(var(--hue), 95%, 48%, 0.2);">✍️</div>
+        <div>
+          <h5 style="margin: 0; font-size: 15.5px; font-weight: 700; color: var(--text-main);">Starrope Tech Editor</h5>
+          <p style="margin: 6px 0 0 0; font-size: 13.5px; color: var(--text-muted); line-height: 1.5;">Specializes in AI workflows, developer environments, and digital nomad infrastructure. Curating verified, actionable technical guides for global creators.</p>
+        </div>
+      </div>
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      
+      <!-- Bio Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Editor Profile</h3>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+          <div style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-family: var(--font-title);">S</div>
+          <div>
+            <h4 style="font-size: 15px;">Starrope Tech</h4>
+            <span style="font-size: 12px; color: var(--text-muted);">AI & Dev Productivity Partner</span>
+          </div>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">Authoritative insights on AI-assisted coding, programmatic systems, digital nomad visas, and monetization strategies for global creators.</p>
+      </div>
+      
+      <!-- Ad Widget -->
+      <ins class="adsbygoogle ad-slot ad-sidebar sidebar-widget"
+           style="display:block"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540006"
+           data-ad-format="rectangle"
+           data-full-width-responsive="true">
+        <div class="ad-slot-label">Sponsored Resource Links</div>
+      </ins>
+      
+      <!-- Navigation Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Quick Links</h3>
+        <ul class="categories-list">
+          <li><a href="../index.html">🏠 Back to Home</a></li>
+          <li><a href="../about.html">👤 Meet the Editor</a></li>
+        </ul>
+      </div>
+      
+    </aside>
+  </main>
+
+  <!-- AD SLOT (POST BOTTOM DISPLAY) -->
+  <div class="container" style="margin-bottom: 60px;">
+    <ins class="adsbygoogle ad-slot ad-footer"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540007"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Footer Responsive Match Ad</div>
+    </ins>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <a href="../index.html" class="logo footer-info-logo">
+          <div class="logo-icon">S</div>
+          <span class="gradient-text">Starrope Tech & AI</span>
+        </a>
+        <p>Premium guides detailing AI developer ecosystems, production prompting systems, and remote working guidelines for software engineers.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Compliance & Policy</h4>
+        <ul>
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starrope Tech & AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link JS (relative path) -->
+  <script src="../assets/main.js"></script>
+  
+  <!-- Trigger Adsense rendering loop -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</body>
+</html>
