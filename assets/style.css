@@ -344,7 +344,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-card-thumb {
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  min-height: 200px;
   background-position: center;
   background-size: cover;
   background-color: var(--bg-ad);
