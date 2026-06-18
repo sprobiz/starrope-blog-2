@@ -243,7 +243,7 @@
     {
       "filename": "github-projects-kanban-solo.html",
       "title": "GitHub Projects & Issue Tracking: Setting Up a Kanban Workflow for Solo Developers",
-      "description": "Streamline your development cycles using GitHub Projects and issues. Learn how to configure custom Kanban boards, prioritize tasks, and manage release milestones.",
+      "description": "Streamline your development cycles using GitHub Projects and issues. Learn how to configure Kanban boards, prioritize tasks, and manage release milestones.",
       "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
       "tag": "Developer Productivity",
       "date_display": "Jun 25, 2026 (2:00 PM)",
@@ -273,7 +273,7 @@
     {
       "filename": "typescript-advanced-types-guide.html",
       "title": "Mastering TypeScript Advanced Types: Generics, Mapped Types, and Conditional Utility Types",
-      "description": "Elevate your JavaScript development with advanced TypeScript patterns. Master utility types, custom generics, mapped properties, and runtime type assertions.",
+      "description": "Elevate your JavaScript development with advanced TypeScript patterns. Master utility types, generics, mapped properties, and runtime type assertions.",
       "image_url": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=800&q=80",
       "tag": "Web Development",
       "date_display": "Jun 28, 2026 (2:00 PM)",
@@ -293,7 +293,7 @@
     {
       "filename": "react-state-management-2026.html",
       "title": "React State Management in 2026: Comparing Zustand, Recoil, and Context API",
-      "description": "Choose the best state management library for your React projects in 2026. Compare Zustand, Recoil, Redux Toolkit, and built-in Context APIs.",
+      "description": "Choose the best state management library for your React projects in 2026. Compare Zustand, Recoil, Redux Toolkit, and Context APIs.",
       "image_url": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?auto=format&fit=crop&w=800&q=80",
       "tag": "Web Development",
       "date_display": "Jun 30, 2026 (2:00 PM)",
@@ -363,7 +363,7 @@
     {
       "filename": "supabase-rls-security-rules.html",
       "title": "Supabase Row Level Security (RLS): Protecting User Data",
-      "description": "Master database security in Supabase. Write robust Row Level Security rules, handle public tables, and secure API keys in client-side apps.",
+      "description": "Master database security in Supabase. Write Row Level Security rules, handle public tables, and secure API keys in client-side apps.",
       "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
       "tag": "DevOps & SaaS",
       "date_display": "Jun 13, 2026 (07:00 AM)",
@@ -413,7 +413,7 @@
     {
       "filename": "monetizing-open-source-projects.html",
       "title": "How to Monetize Your Open-Source Software Projects",
-      "description": "Explore sustainable funding models for open-source developers. Learn about open-core, hosting SaaS, GitHub Sponsors, and corporate sponsorships.",
+      "description": "Explore sustainable funding models for open-source developers. Learn about open-core, hosting SaaS, Sponsors, and corporate sponsorships.",
       "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
       "tag": "Developer Productivity",
       "date_display": "Jun 18, 2026 (07:00 AM)",
@@ -453,7 +453,7 @@
     {
       "filename": "hugo-static-site-github-pages.html",
       "title": "Hosting Hugo Blogs on GitHub Pages: Zero Cost Web Deployment",
-      "description": "Build a lightning-fast blog using Hugo and host it for free on GitHub Pages. Configure custom domains, SSL certificates, and auto builds.",
+      "description": "Hugo blog setup guide on GitHub Pages. Configure custom domains, SSL certificates, and auto builds.",
       "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
       "tag": "Web Development",
       "date_display": "Jun 22, 2026 (07:00 AM)",
@@ -533,7 +533,7 @@
     {
       "filename": "vercel-alternatives-indie-hackers.html",
       "title": "Vercel Alternatives in 2026: Coolify, Dokku, and Render",
-      "description": "Review top hosting alternatives for indie hackers in 2026. Compare Vercel serverless limitations with self-hosted VPS and Docker PaaS options.",
+      "description": "Review hosting alternatives for indie hackers. Compare Vercel serverless limits with self-hosted VPS and Docker PaaS options.",
       "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
       "tag": "DevOps & SaaS",
       "date_display": "Jun 30, 2026 (07:00 AM)",
@@ -549,6 +549,16 @@
       "description": "Evaluate GitHub Copilot and Cursor AI for software engineering. Discover which tool maximizes coding speed, multi-file edits, and project comprehension.",
       "publish_date": "2026-06-18",
       "publish_time": "08:20"
+    },
+    {
+      "filename": "claude-artifacts-no-code-guide.html",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Tools",
+      "date_display": "Jun 18, 2026",
+      "title": "Claude 3.5 Sonnet Artifacts: The Ultimate Guide to No-Code Software Development",
+      "description": "Unlock the potential of Claude 3.5 Sonnet Artifacts for no-code development. Learn how to generate, refine, and deploy web applications without writing code.",
+      "publish_date": "2026-06-18",
+      "publish_time": "08:00"
     }
   ]
 }
