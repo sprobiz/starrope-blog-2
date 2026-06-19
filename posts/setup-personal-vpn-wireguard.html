@@ -132,7 +132,7 @@
       <p>Working from coffee shops, airport terminals, and co-working spaces exposes your data to unsecured local networks. Using a commercial VPN is one option, but hosting your own **WireGuard VPN server** on a private VPS guarantees complete control over your traffic logs, data security, and IP address allocation.</p>
       
       <h2>1. Installing WireGuard on Ubuntu</h2>
-      <p>Spin up a cheap Ubuntu VPS. Update the repository lists and install the WireGuard package: <code>sudo apt update && sudo apt install wireguard</code>. Generate private and public security keys for both the server and client devices.</p>
+      <p>Configure the server interface configuration file (<code>/etc/wireguard/wg0.conf</code>), setting up network address translation (NAT) and packet forwarding rules to route traffic to the internet.</p>
       <p>Configure the server interface configuration file (<code>/etc/wireguard/wg0.conf</code>), setting up network address translation (NAT) and packet forwarding rules to route traffic to the internet.</p>
       
       <blockquote>
