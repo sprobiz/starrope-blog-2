@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "deepseek-r1-vs-claude-sonnet-coding.html",
+      "title": "DeepSeek-R1 vs Claude 3.5 Sonnet: Benchmarking LLMs for Multi-File AI Coding in 2026",
+      "description": "An in-depth developer comparison between DeepSeek-R1 and Anthropic Claude 3.5 Sonnet. Discover which reasoning model optimizes software engineering workflows, AI agent execution, and repository refactoring.",
+      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jun 21, 2026 (11:00 PM)",
+      "publish_date": "2026-06-21",
+      "publish_time": "23:00"
+    },
+    {
       "filename": "build-ai-agents-python.html",
       "title": "How to Build an AI-Powered Agent in 2026: A Step-by-Step Guide with Python",
       "description": "Learn how to build a production-grade autonomous AI agent in 2026 using Python, modern agentic frameworks, and key optimization patterns for real-world tasks.",
