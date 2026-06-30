@@ -589,6 +589,16 @@
       "date_display": "Jun 19, 2026",
       "publish_date": "2026-06-19",
       "publish_time": "10:00"
+    },
+    {
+      "filename": "windsurf-vs-cursor-ai-editor.html",
+      "title": "Windsurf Editor vs Cursor: A Developer's Hands-On Comparison in 2026",
+      "description": "An in-depth hands-on comparison between Windsurf Editor and Cursor AI. Discover which AI-powered IDE provides superior agentic loops, multi-file code editing, and context awareness in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jul 1, 2026 (06:30 AM)",
+      "publish_date": "2026-07-01",
+      "publish_time": "06:30"
     }
   ]
 }

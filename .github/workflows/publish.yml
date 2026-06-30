@@ -2,6 +2,8 @@ name: 📅 Scheduled Post Publisher
 
 on:
   schedule:
+    # KST 06:30 = UTC 21:30 (previous day)
+    - cron: '30 21 * * *'
     # KST 08:00 = UTC 23:00 (previous day)
     - cron: '0 23 * * *'
     # KST 16:00 = UTC 07:00
