@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits | Starrope Tech & AI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Learn how to design custom system prompts for Claude 3.5 Sonnet to handle complex, multi-file codebase edits, minimize context drift, and prevent broken imports.">
+  
+  <!-- Link CSS (relative path to main assets) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope Tech & AI</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../index.html#articles" class="nav-item">Articles</a>
+        <a href="../about.html" class="nav-item">About</a>
+        <a href="../privacy-policy.html" class="nav-item">Privacy Policy</a>
+        <a href="../terms-of-service.html" class="nav-item">Terms of Service</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">AI & Prompting</div>
+    <h1 class="post-header-title">How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits</h1>
+    <div class="post-header-meta">
+      <span>Author: Starrope</span>
+      <span>•</span>
+      <span>July 2, 2026</span>
+      <span>•</span>
+      <span>Read Time: ~5 min</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540004"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Header Premium Banner</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      
+      <p>As software engineers increasingly shift toward using AI agents like Cursor Composer and Windsurf Cascade, the limits of standard prompting become clear. Editing code in a single file is trivial, but executing clean updates across multiple files requires planning. In this developer's guide, we detail how to design and structure system prompts specifically for <strong>Claude 3.5 Sonnet</strong> to prevent context drift, minimize syntax errors, and avoid broken imports during complex codebase refactoring.</p>
+      
+      <h2>1. The Challenge of Multi-File Context Drift</h2>
+      <p>When Claude 3.5 Sonnet processes multiple files, the risk of context dilution increases. Without explicit constraints, the model may forget global type definitions, use outdated import paths, or truncate key functions. To prevent this, your system prompt must instruct the model to perform a <strong>dependency scan</strong> before generating code edits. This forces the model to respect the import topology and verify that variable types align across different files.</p>
+      
+      <blockquote>
+        "An optimized system prompt doesn't just ask Claude to edit code; it teaches it to act like a static compiler, validating definitions and import targets across files before writing a single line."
+      </blockquote>
+      
+      <h2>2. Structuring the Custom System Prompt</h2>
+      <p>To implement these constraints, create a system instruction block (often stored in a custom configuration like <code>.cursorrules</code> or system prompt overrides). The instructions should enforce three main pillars: <strong>declarative file targeting</strong>, <strong>isolated incremental diffing</strong>, and <strong>import verification rules</strong>.</p>
+      
+      <ul>
+        <li><strong>Declarative Targeting:</strong> Direct the model to explicitly list all files it intends to modify at the very start of its response. This forces a structured planning phase.</li>
+        <li><strong>Isolated Diff Generation:</strong> Require the model to output edits using precise search-and-replace syntax or targeted diff chunks instead of rewriting whole files, saving tokens and minimizing errors.</li>
+        <li><strong>Type & Import Safety:</strong> Mandate that every file modification must explicitly preserve existing exports and verify that any new dependency is actually declared in the corresponding package config.</li>
+      </ul>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540005">
+        <div class="ad-slot-label">In-Article Native Ad Block</div>
+      </ins>
+
+      <!-- HIGH-CONVERTING REDIRECT CTA BOX (AdSense Vignette 100% Trigger Bridge link) -->
+      <div class="redirect-box">
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 Explore Advanced Developer Setup and System Configs</h3>
+        <p class="redirect-desc">
+          Click below to visit the official repository of production-grade configuration rules and system prompt setups for AI-first editors.<br>
+          (A brief security and latency check may take 1-2 seconds.)
+        </p>
+        <a href="../apply.html?target=https://github.com/sprobiz/starrope-blog-2" class="redirect-cta-btn" target="_blank" rel="noopener">
+          View Prompt Templates on GitHub
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>3. Recommended System Prompt Template</h2>
+      <p>Here is a concrete template you can copy into your developer environment settings:</p>
+      
+      <pre style="background: var(--card-bg); padding: 16px; border-radius: 8px; font-family: monospace; overflow-x: auto; border: 1px solid var(--border-color); color: var(--text-color);">
+You are an expert software engineer. When modifying the codebase:
+1. Identify all target files and their dependencies first.
+2. Outline a sequential editing plan before outputting code.
+3. Use precise, minimal edits. Avoid rewriting unmodified sections.
+4. Verify that imports remain correct and do not introduce cyclic dependencies.
+5. Match existing design patterns and indentation rules exactly.
+      </pre>
+
+      <h2>Conclusion</h2>
+      <p>Optimizing Claude 3.5 Sonnet's system prompts is the most effective way to scale developer productivity in 2026. By setting constraints around planning, code diff structure, and type safety, you transform Claude from a simple autocomplete assistant into a robust agent capable of handling complex, multi-file codebase refactoring with high accuracy.</p>
+      
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      
+      <!-- Bio Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Editor Profile</h3>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+          <div style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-family: var(--font-title);">S</div>
+          <div>
+            <h4 style="font-size: 15px;">Starrope Tech</h4>
+            <span style="font-size: 12px; color: var(--text-muted);">AI & Dev Productivity Partner</span>
+          </div>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">Authoritative insights on AI-assisted coding, programmatic systems, digital nomad visas, and monetization strategies for global creators.</p>
+      </div>
+      
+      <!-- Ad Widget -->
+      <ins class="adsbygoogle ad-slot ad-sidebar sidebar-widget"
+           style="display:block"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540006"
+           data-ad-format="rectangle"
+           data-full-width-responsive="true">
+        <div class="ad-slot-label">Sponsored Resource Links</div>
+      </ins>
+      
+      <!-- Navigation Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Quick Links</h3>
+        <ul class="categories-list">
+          <li><a href="../index.html">🏠 Back to Home</a></li>
+          <li><a href="../about.html">👤 Meet the Editor</a></li>
+        </ul>
+      </div>
+      
+    </aside>
+  </main>
+
+  <!-- AD SLOT (POST BOTTOM DISPLAY) -->
+  <div class="container" style="margin-bottom: 60px;">
+    <ins class="adsbygoogle ad-slot ad-footer"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540007"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Footer Responsive Match Ad</div>
+    </ins>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <a href="../index.html" class="logo footer-info-logo">
+          <div class="logo-icon">S</div>
+          <span class="gradient-text">Starrope Tech & AI</span>
+        </a>
+        <p>Premium guides detailing AI developer ecosystems, production prompting systems, and remote working guidelines for software engineers.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Compliance & Policy</h4>
+        <ul>
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starrope Tech & AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link JS (relative path) -->
+  <script src="../assets/main.js"></script>
+  
+  <!-- Trigger Adsense rendering loop -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</body>
+</html>

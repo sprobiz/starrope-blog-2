@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "claude-35-sonnet-system-prompts-codebase.html",
+      "title": "How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits",
+      "description": "Learn how to design custom system prompts for Claude 3.5 Sonnet to handle complex, multi-file codebase edits, minimize context drift, and prevent broken imports.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI & Prompting",
+      "date_display": "Jul 2, 2026 (08:00 AM)",
+      "publish_date": "2026-07-02",
+      "publish_time": "08:00"
+    },
+    {
       "filename": "deepseek-r1-vs-claude-sonnet-coding.html",
       "title": "DeepSeek-R1 vs Claude 3.5 Sonnet: Benchmarking LLMs for Multi-File AI Coding in 2026",
       "description": "An in-depth developer comparison between DeepSeek-R1 and Anthropic Claude 3.5 Sonnet. Discover which reasoning model optimizes software engineering workflows, AI agent execution, and repository refactoring.",
