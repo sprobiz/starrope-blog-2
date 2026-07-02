@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "langgraph-agentic-workflows.html",
+      "title": "Developing AI Agents with LangGraph: Designing Statecharts for Complex Workflows",
+      "description": "Discover how to build complex, multi-agent autonomous systems using LangGraph. Learn to design cyclic statecharts, manage persistent conversational state, and implement human-in-the-loop validation.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 3, 2026",
+      "publish_date": "2026-07-03",
+      "publish_time": "07:00"
+    },
+    {
       "filename": "claude-35-sonnet-system-prompts-codebase.html",
       "title": "How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits",
       "description": "Learn how to design custom system prompts for Claude 3.5 Sonnet to handle complex, multi-file codebase edits, minimize context drift, and prevent broken imports.",
