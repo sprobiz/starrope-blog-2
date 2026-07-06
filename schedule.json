@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "cursor-composer-large-monorepos.html",
+      "title": "Optimizing Cursor AI Composer Mode for Large Monorepos: Directory Context vs File Pinning",
+      "description": "Learn how to structure your directory context and use file pinning to optimize Cursor AI Composer Mode for large scale monorepos, reducing context waste and costs.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jul 6, 2026",
+      "publish_date": "2026-07-06",
+      "publish_time": "22:00"
+    },
+    {
       "filename": "langgraph-agentic-workflows.html",
       "title": "Developing AI Agents with LangGraph: Designing Statecharts for Complex Workflows",
       "description": "Discover how to build complex, multi-agent autonomous systems using LangGraph. Learn to design cyclic statecharts, manage persistent conversational state, and implement human-in-the-loop validation.",
