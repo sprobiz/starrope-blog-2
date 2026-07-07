@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "model-context-protocol-mcp-guide.html",
+      "title": "Model Context Protocol (MCP): The New Standard for Context-Aware AI Development",
+      "description": "Explore how Model Context Protocol (MCP) integrates LLMs with custom data sources, local files, and APIs in 2026. Guide to building context-aware AI tools.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 7, 2026",
+      "publish_date": "2026-07-07",
+      "publish_time": "12:00"
+    },
+    {
       "filename": "cursor-composer-large-monorepos.html",
       "title": "Optimizing Cursor AI Composer Mode for Large Monorepos: Directory Context vs File Pinning",
       "description": "Learn how to structure your directory context and use file pinning to optimize Cursor AI Composer Mode for large scale monorepos, reducing context waste and costs.",
