@@ -639,6 +639,16 @@
       "date_display": "Jul 1, 2026 (06:30 AM)",
       "publish_date": "2026-07-01",
       "publish_time": "06:30"
+    },
+    {
+      "filename": "roo-code-autonomous-ai-coding-agent.html",
+      "title": "Roo Code (Roo Cline): The Ultimate Autonomous AI Coding Agent for VS Code",
+      "description": "Discover how Roo Code (Roo Cline) transforms VS Code with autonomous agentic coding. Learn how to configure custom system prompts, select the best LLMs, and automate software development.",
+      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Code Editors",
+      "date_display": "Jul 9, 2026",
+      "publish_date": "2026-07-09",
+      "publish_time": "22:00"
     }
   ]
 }
