@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "langgraph-multi-agent-gemini-flash.html",
+      "title": "Building Collaborative Multi-Agent Systems with LangGraph and Gemini Flash",
+      "description": "Discover how to design and build stateful, collaborative multi-agent systems using LangGraph and Google's Gemini Flash. Step-by-step implementation guide.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 11, 2026",
+      "publish_date": "2026-07-11",
+      "publish_time": "10:00"
+    },
+    {
       "filename": "llm-prompt-caching-agentic-workflows.html",
       "title": "LLM Prompt Caching: Minimizing Costs in Agentic Workflows",
       "description": "Learn how LLM prompt caching (Anthropic, OpenAI, DeepSeek) optimizes latency and costs in stateful, agentic workflows. Best practices and design patterns for 2026.",
