@@ -669,6 +669,16 @@
       "date_display": "Jul 9, 2026",
       "publish_date": "2026-07-09",
       "publish_time": "22:00"
+    },
+    {
+      "filename": "claude-37-sonnet-hybrid-reasoning-developer-guide.html",
+      "title": "Mastering Claude 3.7 Sonnet Hybrid Reasoning: A Guide for Developers",
+      "description": "Explore Claude 3.7 Sonnet's hybrid reasoning capabilities. Learn how to toggle thinking budgets, optimize API parameters, and execute complex codebase edits.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 12, 2026",
+      "publish_date": "2026-07-12",
+      "publish_time": "15:00"
     }
   ]
 }
