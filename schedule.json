@@ -699,6 +699,16 @@
       "date_display": "Jul 12, 2026",
       "publish_date": "2026-07-12",
       "publish_time": "15:00"
+    },
+    {
+      "filename": "openai-o3-mini-vs-claude-37-sonnet.html",
+      "title": "OpenAI o3-mini vs Claude 3.7 Sonnet: Benchmarking Reasoning Models for Developers",
+      "description": "Compare OpenAI o3-mini and Claude 3.7 Sonnet for developer workflows. Analyze speed, reasoning effort, API parameters, and tool execution in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 17, 2026",
+      "publish_date": "2026-07-17",
+      "publish_time": "10:30"
     }
   ]
 }
