@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and MCP | Starrope Tech & AI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Learn how to combine Claude 3.7 Sonnet's hybrid reasoning with Model Context Protocol (MCP) to build autonomous multi-agent systems for codebase refactoring in 2026.">
+  <meta name="keywords" content="Claude 3.7 Sonnet, Model Context Protocol, MCP, Multi-Agent Systems, Codebase Refactoring, AI Engineering, Anthropic API, Autonomous AI Agents">
+  
+  <!-- Link CSS (relative path to main assets) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope Tech & AI</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../index.html#articles" class="nav-item">Articles</a>
+        <a href="../about.html" class="nav-item">About</a>
+        <a href="../privacy-policy.html" class="nav-item">Privacy Policy</a>
+        <a href="../terms-of-service.html" class="nav-item">Terms of Service</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">AI Engineering</div>
+    <h1 class="post-header-title">Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and Model Context Protocol (MCP)</h1>
+    <div class="post-header-meta">
+      <span>Author: Starrope</span>
+      <span>•</span>
+      <span>July 26, 2026</span>
+      <span>•</span>
+      <span>Read Time: ~6 min</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540004"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Header Premium Banner</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80" alt="Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and MCP" style="width:100%; border-radius:12px; margin-bottom:32px; box-shadow:var(--shadow-md);">
+      
+      <p>Refactoring large-scale production codebases has long been one of the most error-prone tasks in software development. Single-pass LLM prompts often fail due to context saturation, forgotten exports, or silent runtime errors across decoupled modules. However, in 2026, combining <strong>Claude 3.7 Sonnet's hybrid reasoning</strong> with the <strong>Model Context Protocol (MCP)</strong> unlocks a new architectural paradigm: <strong>stateful, multi-agent refactoring pipelines</strong>.</p>
+
+      <p>This article breaks down how to architect an autonomous multi-agent refactoring system, configure thinking budgets for specialized subagents, and connect MCP servers for real-time abstract syntax tree (AST) validation and git-level verification.</p>
+
+      <!-- SEO SUMMARY TABLE -->
+      <h2 id="summary">Key Architectural Overview</h2>
+      <div style="overflow-x: auto; margin-bottom: 24px;">
+        <table style="width: 100%; border-collapse: collapse; margin-top: 12px;">
+          <thead>
+            <tr style="background-color: var(--bg-tertiary, #f1f5f9); text-align: left;">
+              <th style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Component</th>
+              <th style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Technology / Protocol</th>
+              <th style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Primary Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);"><strong>Orchestrator Agent</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Claude 3.7 Sonnet (High Thinking Budget)</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Dependency graph analysis, task decomposition, step planning</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);"><strong>Code Modifier Agent</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Claude 3.7 Sonnet (Adaptive Budget)</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">AST manipulation, signature updates, modular component edits</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);"><strong>Context Provider</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">MCP File & Git Server</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Exposing repository symbols, git diffs, and precise range viewing</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);"><strong>Verification Agent</strong></td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">MCP Test Runner & Linter</td>
+              <td style="padding: 12px; border: 1px solid var(--border-color, #e2e8f0);">Automated TypeScript compilation, test execution, auto-fix loops</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1. Why Single-Agent Refactoring Fails at Scale</h2>
+      <p>When asking a single LLM to refactor a complex feature spanning dozens of files (e.g., migrating an Express REST architecture to Next.js App Router with Server Actions), several standard failure modes occur:</p>
+
+      <ul>
+        <li><strong>Hallucinated Export Paths:</strong> The model assumes files exist at standard locations without checking actual project tree schemas.</li>
+        <li><strong>Context Degradation:</strong> As conversation history grows, subtle breaking changes in shared TypeScript interface signatures go unnoticed.</li>
+        <li><strong>Premature Completion:</strong> The model edit stops halfway through updating dependent caller functions once output token limits are approached.</li>
+      </ul>
+
+      <blockquote>
+        "Multi-agent architecture solves context decay by decoupling planning, execution, and verification. Each agent runs with dedicated system prompts and isolated, task-specific token budgets."
+      </blockquote>
+
+      <h2>2. Configuring Claude 3.7 Thinking Budgets by Role</h2>
+      <p>Claude 3.7 Sonnet allows fine-grained control over reasoning budgets via the <code>thinking.budget_tokens</code> API parameter. In a multi-agent refactoring workflow, budget allocation should match each subagent's complexity requirements:</p>
+
+      <pre style="background: var(--bg-tertiary, #1e293b); color: #f8fafc; padding: 16px; border-radius: 8px; overflow-x: auto;"><code>// Example Anthropic API Payload for the Orchestrator Agent
+const orchestratorResponse = await anthropic.messages.create({
+  model: "claude-3-7-sonnet-20250219",
+  max_tokens: 16000,
+  thinking: {
+    type: "enabled",
+    budget_tokens: 8000 // Extended budget for architectural reasoning
+  },
+  messages: [{
+    role: "user",
+    content: "Analyze repository structure via MCP and generate a DAG refactoring plan."
+  }]
+});</code></pre>
+
+      <p>Recommended token allocations per agent type:</p>
+      <ul>
+        <li><strong>Orchestrator / Architect:</strong> <code>budget_tokens: 8,000 to 12,000</code> — Deep analysis of full dependency graphs before touching code.</li>
+        <li><strong>Code Modifier:</strong> <code>budget_tokens: 2,000 to 4,000</code> — Focused reasoning for multi-file AST updates and import fixes.</li>
+        <li><strong>Test Runner / Repair Agent:</strong> <code>budget_tokens: 1,000 to 2,000</code> — Quick diagnostic cycles based on compiler error output.</li>
+      </ul>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540005">
+        <div class="ad-slot-label">In-Article Native Ad Block</div>
+      </ins>
+
+      <!-- HIGH-CONVERTING REDIRECT CTA BOX -->
+      <div class="redirect-box">
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 Official Model Context Protocol Specification</h3>
+        <p class="redirect-desc">
+          Click the button below to explore the official MCP documentation and learn how to build custom MCP servers for your development agent pipeline.<br>
+          (A brief security and latency check may take 1-2 seconds.)
+        </p>
+        <a href="../apply.html?target=https://modelcontextprotocol.io/introduction" class="redirect-cta-btn" target="_blank" rel="noopener">
+          Proceed to MCP Docs
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>3. Integrating MCP Tools for Deterministic Context</h2>
+      <p>Model Context Protocol (MCP) provides a standardized JSON-RPC channel between Claude 3.7 Sonnet agents and external development environment tools. For codebase refactoring, three core MCP servers are essential:</p>
+
+      <ul>
+        <li><strong>MCP Filesystem Server:</strong> Provides exact line-range reading and precise multi-chunk string replacements without corrupting whitespace.</li>
+        <li><strong>MCP Git Server:</strong> Enables agents to check git branch status, inspect diffs, and create discrete commits per refactoring step.</li>
+        <li><strong>MCP Terminal / Test Runner Server:</strong> Executes <code>npm test</code> or <code>tsc --noEmit</code> and feeds raw output tracebacks back into the feedback loop.</li>
+      </ul>
+
+      <h2>4. Step-by-Step Refactoring Workflow</h2>
+      <p>Here is how a complete production refactoring cycle executes autonomously:</p>
+
+      <ol>
+        <li><strong>Phase 1: Dependency Mapping:</strong> The Orchestrator inspects package manifests and import trees using MCP, producing an ordered execution graph.</li>
+        <li><strong>Phase 2: Atomic Edits:</strong> The Modifier Agent updates base data models and TypeScript types first, ensuring all export signatures are aligned.</li>
+        <li><strong>Phase 3: Consumer Synchronization:</strong> The Agent systematically updates all call sites that depend on the modified interface.</li>
+        <li><strong>Phase 4: Feedback & Repair Loop:</strong> The Verification Agent executes type checks. If errors occur, log tracebacks are ingested to attempt up to 3 automatic repairs before committing.</li>
+      </ol>
+
+      <h2>5. Frequently Asked Questions (FAQ)</h2>
+      <div style="margin-top: 20px;">
+        <div style="margin-bottom: 16px; padding: 16px; background: var(--bg-tertiary, #f8fafc); border-radius: 8px;">
+          <h3 style="font-size: 16px; margin-bottom: 6px;">Q1: How does MCP differ from custom function calling?</h3>
+          <p style="font-size: 14px; margin: 0; color: var(--text-muted);">MCP standardizes tool schemas and resource connections across all AI clients (Cursor, Claude Desktop, custom agents), eliminating the need to write ad-hoc tool parsers for every platform.</p>
+        </div>
+        <div style="margin-bottom: 16px; padding: 16px; background: var(--bg-tertiary, #f8fafc); border-radius: 8px;">
+          <h3 style="font-size: 16px; margin-bottom: 6px;">Q2: What is the optimal max_tokens setting when thinking mode is enabled?</h3>
+          <p style="font-size: 14px; margin: 0; color: var(--text-muted);">Your <code>max_tokens</code> parameter must be set higher than <code>thinking.budget_tokens</code> to account for both internal reasoning and final visible text/tool calls. We recommend a 2:1 ratio (e.g., 16,000 max tokens for an 8,000 thinking budget).</p>
+        </div>
+        <div style="margin-bottom: 16px; padding: 16px; background: var(--bg-tertiary, #f8fafc); border-radius: 8px;">
+          <h3 style="font-size: 16px; margin-bottom: 6px;">Q3: How do multi-agent systems prevent endless error repair loops?</h3>
+          <p style="font-size: 14px; margin: 0; color: var(--text-muted);">Implement an explicit retry counter (typically 3 attempts). If unit tests fail after 3 repair iterations, the system halts execution, reverts the git working directory via MCP Git, and outputs a diagnostic summary for human review.</p>
+        </div>
+      </div>
+
+      <h2>Conclusion</h2>
+      <p>Combining Claude 3.7 Sonnet's hybrid reasoning engine with Model Context Protocol (MCP) standardizes autonomous software engineering. By assigning structured roles, tuning token budgets, and incorporating real-time test feedback, dev teams can refactor mission-critical codebases with unprecedented confidence.</p>
+      
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      
+      <!-- Bio Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Editor Profile</h3>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+          <div style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), hsl(265, 90%, 60%)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-family: var(--font-title);">S</div>
+          <div>
+            <h4 style="font-size: 15px;">Starrope Tech</h4>
+            <span style="font-size: 12px; color: var(--text-muted);">AI & Dev Productivity Partner</span>
+          </div>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">Authoritative insights on AI-assisted coding, programmatic systems, digital nomad visas, and monetization strategies for global creators.</p>
+      </div>
+      
+      <!-- Ad Widget -->
+      <ins class="adsbygoogle ad-slot ad-sidebar sidebar-widget"
+           style="display:block"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="9876540006"
+           data-ad-format="rectangle"
+           data-full-width-responsive="true">
+        <div class="ad-slot-label">Sponsored Resource Links</div>
+      </ins>
+      
+      <!-- Navigation Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Quick Links</h3>
+        <ul class="categories-list">
+          <li><a href="../index.html">🏠 Back to Home</a></li>
+          <li><a href="../about.html">👤 Meet the Editor</a></li>
+        </ul>
+      </div>
+      
+    </aside>
+  </main>
+
+  <!-- AD SLOT (POST BOTTOM DISPLAY) -->
+  <div class="container" style="margin-bottom: 60px;">
+    <ins class="adsbygoogle ad-slot ad-footer"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540007"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Footer Responsive Match Ad</div>
+    </ins>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <a href="../index.html" class="logo footer-info-logo">
+          <div class="logo-icon">S</div>
+          <span class="gradient-text">Starrope Tech & AI</span>
+        </a>
+        <p>Premium guides detailing AI developer ecosystems, production prompting systems, and remote working guidelines for software engineers.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Compliance & Policy</h4>
+        <ul>
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Starrope Tech & AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link JS (relative path) -->
+  <script src="../assets/main.js"></script>
+  
+  <!-- Trigger Adsense rendering loop -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</body>
+</html>

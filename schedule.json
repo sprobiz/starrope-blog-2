@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "claude-37-mcp-agentic-refactoring-guide.html",
+      "title": "Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and Model Context Protocol (MCP)",
+      "description": "Learn how to combine Claude 3.7 Sonnet's hybrid reasoning with Model Context Protocol (MCP) tools to build stateful multi-agent systems for autonomous codebase refactoring in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 26, 2026",
+      "publish_date": "2026-07-26",
+      "publish_time": "08:00"
+    },
+    {
       "filename": "browser-use-autonomous-web-agents.html",
       "title": "Getting Started with Browser-Use: Build Autonomous AI Web Agents using Python",
       "description": "Learn how to build autonomous AI web agents using Browser-Use, Python, and Playwright. Automate complex browser tasks, web research, and SaaS workflows.",
