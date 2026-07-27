@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "local-ai-agents-ollama-deepseek-r1-qdrant.html",
+      "title": "Building Fully Local Autonomous AI Agents with Ollama, DeepSeek-R1, and Qdrant (2026 Guide)",
+      "description": "Learn how to deploy zero-cost, privacy-first autonomous AI coding and research agents locally using Ollama, DeepSeek-R1 reasoning models, and Qdrant vector database in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 28, 2026",
+      "publish_date": "2026-07-28",
+      "publish_time": "07:00"
+    },
+    {
       "filename": "claude-37-mcp-agentic-refactoring-guide.html",
       "title": "Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and Model Context Protocol (MCP)",
       "description": "Learn how to combine Claude 3.7 Sonnet's hybrid reasoning with Model Context Protocol (MCP) tools to build stateful multi-agent systems for autonomous codebase refactoring in 2026.",
