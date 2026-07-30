@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "crewai-deepseek-r1-mcp-agentic-workflow.html",
+      "title": "Building Autonomous Multi-Agent Workflows with CrewAI, DeepSeek-R1, and Model Context Protocol (MCP) in 2026",
+      "description": "Learn how to construct stateful, multi-agent software engineering pipelines using CrewAI, DeepSeek-R1 reasoning models, and Anthropic's Model Context Protocol (MCP) tools in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 30, 2026",
+      "publish_date": "2026-07-30",
+      "publish_time": "08:00"
+    },
+    {
       "filename": "local-ai-agents-ollama-deepseek-r1-qdrant.html",
       "title": "Building Fully Local Autonomous AI Agents with Ollama, DeepSeek-R1, and Qdrant (2026 Guide)",
       "description": "Learn how to deploy zero-cost, privacy-first autonomous AI coding and research agents locally using Ollama, DeepSeek-R1 reasoning models, and Qdrant vector database in 2026.",
