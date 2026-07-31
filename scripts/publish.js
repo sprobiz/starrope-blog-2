@@ -68,7 +68,9 @@ function addUrlToSitemap(filename, publishDate, content) {
   return content.replace('</urlset>', newUrl + '</urlset>');
 }
 
-const todayStr = '2026-07-30';
+const nowKst = new Date(new Date().getTime() + (9 * 60 * 60 * 1000));
+const todayStr = nowKst.toISOString().split('T')[0];
+console.log(`Current KST Date: ${todayStr}`);
 let publishedCount = 0;
 
 for (const post of schedule.posts) {

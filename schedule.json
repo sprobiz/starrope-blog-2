@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "filename": "gemini-25-flash-agentic-mcp-workflows.html",
+      "title": "Architecting Multi-Modal Agentic Workflows with Gemini 2.5 Flash and Model Context Protocol (MCP) in 2026",
+      "description": "Learn how to build high-throughput, multi-modal autonomous AI agents combining Google's Gemini 2.5 Flash API with Model Context Protocol (MCP) tool integration in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Jul 31, 2026",
+      "publish_date": "2026-07-31",
+      "publish_time": "08:00"
+    },
+    {
       "filename": "crewai-deepseek-r1-mcp-agentic-workflow.html",
       "title": "Building Autonomous Multi-Agent Workflows with CrewAI, DeepSeek-R1, and Model Context Protocol (MCP) in 2026",
       "description": "Learn how to construct stateful, multi-agent software engineering pipelines using CrewAI, DeepSeek-R1 reasoning models, and Anthropic's Model Context Protocol (MCP) tools in 2026.",
