@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "filename": "graph-rag-claude-37-mcp-enterprise-architecture.html",
+      "title": "Architecting Production Graph RAG Systems with Claude 3.7 Extended Reasoning and Model Context Protocol (MCP) in 2026",
+      "description": "Learn how combining Knowledge Graph RAG (Graph RAG) with Claude 3.7 Sonnet's extended reasoning and Model Context Protocol (MCP) eliminates hallucination in complex enterprise document retrieval in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Aug 14, 2026",
+      "publish_date": "2026-08-14",
+      "publish_time": "09:45"
+    },
+    {
+      "filename": "speculative-decoding-hybrid-reasoning-agentic-llm.html",
+      "title": "Speculative Decoding & Hybrid Reasoning: Accelerating Real-Time Autonomous AI Agents in Production (2026)",
+      "description": "Learn how combining speculative decoding with hybrid reasoning models reduces inference latency by up to 70% in high-throughput autonomous AI agent workflows in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Aug 10, 2026",
+      "publish_date": "2026-08-10",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "autonomous-code-review-agents-deepseek-r1-mcp.html",
+      "title": "Autonomous AI Code Review Agents: Implementing DeepSeek-R1 Reasoning with MCP for Production Repositories",
+      "description": "Discover how to build autonomous AI code review agents combining DeepSeek-R1 extended reasoning models with Model Context Protocol (MCP) tool integration for real-time security, performance, and AST linting.",
+      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Aug 7, 2026",
+      "publish_date": "2026-08-07",
+      "publish_time": "08:00"
+    },
+    {
+      "filename": "deepseek-v3-mcp-devsecops-agentic-pipeline.html",
+      "title": "Building Real-Time Autonomous DevSecOps Agents with DeepSeek-V3 and Model Context Protocol (MCP)",
+      "description": "Learn how to build real-time autonomous DevSecOps agents combining DeepSeek-V3, Model Context Protocol (MCP), and static security analysis tools for continuous vulnerability remediation in 2026.",
+      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+      "tag": "AI Engineering",
+      "date_display": "Aug 5, 2026",
+      "publish_date": "2026-08-05",
+      "publish_time": "08:00"
+    },
+    {
       "filename": "gemini-25-flash-agentic-mcp-workflows.html",
       "title": "Architecting Multi-Modal Agentic Workflows with Gemini 2.5 Flash and Model Context Protocol (MCP) in 2026",
       "description": "Learn how to build high-throughput, multi-modal autonomous AI agents combining Google's Gemini 2.5 Flash API with Model Context Protocol (MCP) tool integration in 2026.",
