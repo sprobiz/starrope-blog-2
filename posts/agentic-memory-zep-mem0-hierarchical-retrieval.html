@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecting Enterprise Agentic Memory Systems: Implementing Mem0, Zep, and Hierarchical Retrieval in 2026 | Starrope Tech & AI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Learn how to architect long-term, stateful agentic memory for production AI agents in 2026. Compare Mem0 vs Zep, implement hierarchical episodic & semantic memory, and integrate with Model Context Protocol (MCP).">
+  <meta name="keywords" content="Agentic Memory, Mem0, Zep, Hierarchical Retrieval, Model Context Protocol, MCP, Long Term Memory AI, Vector Database, Autonomous Agents, LLM State Management, AI Engineering 2026">
+  <meta name="author" content="Starrope">
+  <meta property="og:title" content="Architecting Enterprise Agentic Memory Systems: Mem0, Zep & Hierarchical Retrieval (2026)">
+  <meta property="og:description" content="Learn how to architect long-term, stateful agentic memory for production AI agents in 2026. Compare Mem0 vs Zep, implement hierarchical episodic & semantic memory, and integrate with MCP.">
+  <meta property="og:type" content="article">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://blog2.starrope2023.com/posts/agentic-memory-zep-mem0-hierarchical-retrieval.html">
+  
+  <!-- Link CSS (relative path to main assets) -->
+  <link rel="stylesheet" href="../assets/style.css">
+  
+  <!-- Pre-configured Google AdSense Auto Ads Tag -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1692428092138510" crossorigin="anonymous"></script>
+
+  <!-- Structured Data: JSON-LD for Article & FAQPage (Google Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://blog2.starrope2023.com/posts/agentic-memory-zep-mem0-hierarchical-retrieval.html#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://blog2.starrope2023.com/posts/agentic-memory-zep-mem0-hierarchical-retrieval.html"
+        },
+        "headline": "Architecting Enterprise Agentic Memory Systems: Implementing Mem0, Zep, and Hierarchical Retrieval in Autonomous AI Pipelines (2026)",
+        "description": "Learn how to architect long-term, stateful agentic memory for production AI agents in 2026. Compare Mem0 vs Zep, implement hierarchical episodic & semantic memory, and integrate with Model Context Protocol (MCP).",
+        "datePublished": "2026-08-17T08:00:00+09:00",
+        "dateModified": "2026-08-17T08:00:00+09:00",
+        "author": {
+          "@type": "Organization",
+          "name": "Starrope Tech & AI"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Starrope Tech & AI",
+          "url": "https://blog2.starrope2023.com"
+        },
+        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://blog2.starrope2023.com/posts/agentic-memory-zep-mem0-hierarchical-retrieval.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is naive context window dumping insufficient for long-running AI agents?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Passing millions of context tokens into LLMs incurs massive inference latency, high per-token costs, and severe attention degradation (the 'lost in the middle' phenomenon). Dedicated agentic memory systems filter, summarize, and retrieve only relevant episodic and semantic memories dynamically."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Mem0 differ from Zep in enterprise agentic architecture?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mem0 uses a dynamic graph-vector hybrid approach that extracts atomic user preferences and updates entity relationships incrementally. Zep focuses on temporal chat history consolidation, automatic knowledge graph construction, and high-performance vector search over chat sessions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the four tiers of hierarchical agentic memory?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The four tiers are: 1) Working Memory (active prompt context), 2) Short-Term Memory (session turn cache), 3) Episodic Memory (past event sequences and tool execution logs), and 4) Semantic Memory (distilled facts, user preferences, and domain rules)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Model Context Protocol (MCP) integrate with agentic memory?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MCP exposes memory CRUD operations as standardized JSON-RPC tools (e.g., memory_add, memory_search, memory_update). This allows autonomous AI agents to query and persist long-term state across any LLM backend seamlessly."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">S</div>
+        <span class="gradient-text">Starrope Tech & AI</span>
+      </a>
+      
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-item">Home</a>
+        <a href="../index.html#articles" class="nav-item">Articles</a>
+        <a href="../about.html" class="nav-item">About</a>
+        <a href="../privacy-policy.html" class="nav-item">Privacy Policy</a>
+        <a href="../terms-of-service.html" class="nav-item">Terms of Service</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- POST HEADER -->
+  <header class="post-header">
+    <div class="post-header-tag">AI Engineering</div>
+    <h1 class="post-header-title">Architecting Enterprise Agentic Memory Systems: Implementing Mem0, Zep, and Hierarchical Retrieval in Autonomous AI Pipelines (2026)</h1>
+    <div class="post-header-meta">
+      <span>Author: Starrope</span>
+      <span>•</span>
+      <span>August 17, 2026</span>
+      <span>•</span>
+      <span>Read Time: ~11 min</span>
+    </div>
+  </header>
+
+  <!-- AD SLOT (POST TOP DISPLAY) -->
+  <div class="container">
+    <ins class="adsbygoogle ad-slot ad-header"
+         style="display:block"
+         data-ad-client="ca-pub-1692428092138510"
+         data-ad-slot="9876540004"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+      <div class="ad-slot-label">Header Premium Banner</div>
+    </ins>
+  </div>
+
+  <!-- ARTICLE LAYOUT -->
+  <main class="container post-article-layout">
+    
+    <!-- LEFT: MAIN CONTENT -->
+    <article class="post-content">
+      <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=800&q=80" alt="Architecting Enterprise Agentic Memory Systems with Mem0 and Zep" style="width:100%; border-radius:12px; margin-bottom:32px; box-shadow:var(--shadow-md);">
+      
+      <p>As autonomous AI agents evolve from single-turn chat assistants into stateful, multi-step enterprise workers, managing <strong>long-term agentic memory</strong> has emerged as the defining engineering challenge of 2026. While modern Large Language Models (LLMs) such as Claude 3.7 Sonnet, DeepSeek-V3, and Gemini 2.5 Flash offer massive context windows, relying solely on prompt concatenation leads to exponentially rising token costs, severe latency overhead, and attention degradation (the infamous <em>lost-in-the-middle</em> phenomenon).</p>
+
+      <p>To operate reliably across multi-day tasks, complex code refactoring, and enterprise user sessions, autonomous agents require a dedicated <strong>Hierarchical Agentic Memory System</strong>. By leveraging specialized memory frameworks such as <strong>Mem0</strong> and <strong>Zep</strong>, and orchestrating state persistence via the <strong>Model Context Protocol (MCP)</strong>, engineering teams can equip AI agents with human-like recall, dynamic preference learning, and zero-latency state restoration.</p>
+
+      <!-- 10-SECOND SUMMARY TABLE -->
+      <h2 id="summary">Key Architectural Overview</h2>
+      <div style="overflow-x: auto; margin-bottom: 24px;">
+        <table class="summary-table" style="width:100%; border-collapse: collapse; margin-top: 12px; font-size: 0.95rem;">
+          <thead>
+            <tr style="background: var(--bg-ad); border-bottom: 2px solid var(--border-light);">
+              <th style="padding: 12px; text-align: left;">Memory Layer</th>
+              <th style="padding: 12px; text-align: left;">Primary Mechanism</th>
+              <th style="padding: 12px; text-align: left;">Latency & Scope</th>
+              <th style="padding: 12px; text-align: left;">Production Stack (2026)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 10px 12px; font-weight: 600; color: var(--primary-color);">Working Memory</td>
+              <td style="padding: 10px 12px;">Active system prompt & sliding conversation window</td>
+              <td style="padding: 10px 12px;">< 10ms (In-Memory / RAM)</td>
+              <td style="padding: 10px 12px;">Pydantic Logics, System Prompts</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 10px 12px; font-weight: 600; color: var(--primary-color);">Short-Term Memory</td>
+              <td style="padding: 10px 12px;">Session turn caching & tool execution history</td>
+              <td style="padding: 10px 12px;">< 50ms (Key-Value Cache)</td>
+              <td style="padding: 10px 12px;">Upstash Redis, LangGraph Checkpointers</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-light);">
+              <td style="padding: 10px 12px; font-weight: 600; color: var(--primary-color);">Episodic Memory</td>
+              <td style="padding: 10px 12px;">Time-series event logs & multi-turn interaction traces</td>
+              <td style="padding: 10px 12px;">100–300ms (Vector + Temporal Index)</td>
+              <td style="padding: 10px 12px;">Zep Cloud / Open Source, Qdrant</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 12px; font-weight: 600; color: var(--primary-color);">Semantic Memory</td>
+              <td style="padding: 10px 12px;">Distilled user preferences, entity relations & rules</td>
+              <td style="padding: 10px 12px;">150–400ms (Knowledge Graph + Embeddings)</td>
+              <td style="padding: 10px 12px;">Mem0, Neo4j, Model Context Protocol (MCP)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1. The Context Window Paradox & Why Agents Need Memory</h2>
+      <p>A common misconception in LLM application design is that 1M+ token context windows eliminate the need for external memory. In practice, feeding raw conversation histories into large context windows introduces three critical failure modes:</p>
+      
+      <ul>
+        <li><strong>Inference Latency Spike:</strong> Processing 500,000 context tokens before generating a single response increases Time-To-First-Token (TTFT) by up to 500%, ruining real-time agent responsiveness.</li>
+        <li><strong>Prohibitive Cost at Scale:</strong> In multi-agent pipelines with dozens of turn loops, sending full prompt histories inflates API bills exponentially.</li>
+        <li><strong>Attention Dilution:</strong> Studies on reasoning models reveal that as context length increases, the model's ability to recall specific constraints buried in middle tokens drops significantly.</li>
+      </ul>
+
+      <blockquote>
+        "An autonomous AI agent without a structured memory system is like a computer running entirely out of CPU cache. To scale enterprise workflows, agents require tiered memory architectures that decouple active reasoning from long-term knowledge retrieval."
+      </blockquote>
+
+      <h2>2. Mem0 vs Zep: Framework Comparison</h2>
+      <p>Two primary open-source and enterprise frameworks dominate the 2026 agentic memory ecosystem: <strong>Mem0</strong> and <strong>Zep</strong>.</p>
+
+      <h3>Mem0: Self-Improving Graph-Vector Hybrid Memory</h3>
+      <p><strong>Mem0</strong> focuses on extracting atomic, semantic facts from user interactions. Instead of storing entire chat turns, Mem0 uses LLM-powered extraction to synthesize user preferences, coding styles, and project rules into a hybrid Vector + Graph representation.</p>
+
+      <p>Key Mem0 Features:</p>
+      <ul>
+        <li><strong>Automatic Conflict Resolution:</strong> If a user changes their preference (e.g., switching from JavaScript to TypeScript), Mem0 automatically updates or invalidates old memory nodes.</li>
+        <li><strong>Multi-Level Scoping:</strong> Supports User-level, Session-level, and Agent-level memory boundaries for fine-grained privacy control.</li>
+        <li><strong>Low Footprint:</strong> Returns concise, highly relevant fact snippets rather than bloated text blocks.</li>
+      </ul>
+
+      <h3>Zep: Temporal Knowledge Graph & Chat History Engine</h3>
+      <p><strong>Zep</strong> is designed for enterprise chat applications and complex multi-session agents requiring deep temporal context. Zep automatically processes dialogue streams, builds background Knowledge Graphs, and enriches search with semantic, hybrid, and graph-based retrieval.</p>
+
+      <p>Key Zep Features:</p>
+      <ul>
+        <li><strong>Automatic Entity Extraction:</strong> Automatically identifies named entities, locations, and technical concepts across long conversation histories.</li>
+        <li><strong>Asynchronous Fact Synthesis:</strong> Operates out-of-band to summarize past sessions without adding latency to the main agent loop.</li>
+        <li><strong>Enterprise Compliance:</strong> Built-in PII redaction and SOC2-compliant data storage options.</li>
+      </ul>
+
+      <!-- AD SLOT (IN-CONTENT DISPLAY) -->
+      <ins class="adsbygoogle ad-slot ad-content"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1692428092138510"
+           data-ad-slot="5566778899">
+        <div class="ad-slot-label">In-Article Native Ad Placement</div>
+      </ins>
+
+      <!-- HIGH-CONVERTING REDIRECT CTA BOX -->
+      <div class="redirect-box">
+        <h3 class="redirect-title" style="border: none; padding: 0; margin-bottom: 8px;">📍 Explore Official Agentic Memory Documentation & Open-Source Repos</h3>
+        <p class="redirect-desc">
+          Access official GitHub repositories, SDK guides, and architecture benchmarks for Mem0 and Zep.<br>
+          (Connection security verification takes 1-2 seconds.)
+        </p>
+        <a href="../apply.html?target=https://github.com/mem0ai/mem0" class="redirect-cta-btn" target="_blank" rel="noopener">
+          Go to Mem0 GitHub Repository
+          <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; height: 18px;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <h2>3. Standardizing Memory Operations with Model Context Protocol (MCP)</h2>
+      <p>The **Model Context Protocol (MCP)**, open-sourced by Anthropic, has become the universal standard for connecting AI agents to external tools and databases. By exposing memory operations through an **MCP Memory Server**, agents can seamlessly interact with Mem0 or Zep across any framework (LangChain, CrewAI, AutoGen, or custom Python runners).</p>
+
+      <p>An production MCP Memory Server standardizes four core tools:</p>
+      <ul>
+        <li><code>memory_add(user_id, content, metadata)</code>: Inserts a new experience or fact into episodic/semantic storage.</li>
+        <li><code>memory_search(user_id, query, limit=5)</code>: Performs hybrid vector and graph retrieval to fetch relevant contextual memories.</li>
+        <li><code>memory_update(memory_id, updated_content)</code>: Modifies an existing memory entry when facts change.</li>
+        <li><code>memory_forget(memory_id)</code>: Deletes specific memories to enforce GDPR/CCPA privacy compliance.</li>
+      </ul>
+
+      <h2>4. Python Code Example: Implementing Stateful Agent Memory with Mem0 & LangChain</h2>
+      <p>Below is a production-ready Python snippet illustrating how to initialize Mem0 memory and inject recalled facts into an autonomous LLM agent execution flow:</p>
+
+      <pre style="background: var(--bg-surface); padding: 18px; border-radius: 8px; border: 1px solid var(--border-light); overflow-x: auto; font-family: monospace; font-size: 0.9rem; line-height: 1.5; color: var(--text-main);">
+<code>from mem0 import Memory
+from langchain_anthropic import ChatAnthropic
+
+# 1. Initialize Mem0 Config with Qdrant Vector DB & OpenAI Embeddings
+config = {
+    "vector_store": {
+        "provider": "qdrant",
+        "config": {
+            "host": "localhost",
+            "port": 6333,
+        }
+    },
+    "version": "v1.1"
+}
+
+memory = Memory.from_config(config)
+llm = ChatAnthropic(model="claude-3-7-sonnet-20250219", temperature=0.2)
+
+def run_stateful_agent(user_id: str, user_prompt: str):
+    # Step A: Search relevant past memories
+    relevant_memories = memory.search(query=user_prompt, user_id=user_id)
+    memory_context = "\n".join([m["memory"] for m in relevant_memories.get("results", [])])
+
+    # Step B: Construct augmented prompt with Working Memory
+    system_prompt = f"""You are an autonomous AI software engineer.
+User Long-Term Preferences & Context:
+{memory_context if memory_context else 'No prior memories found.'}
+"""
+    
+    response = llm.invoke(f"{system_prompt}\nUser Request: {user_prompt}")
+    
+    # Step C: Asynchronously record new interactions into Mem0
+    memory.add(messages=[{"role": "user", "content": user_prompt}, {"role": "assistant", "content": response.content}], user_id=user_id)
+    
+    return response.content
+
+# Example Execution
+user_id = "dev_user_992"
+print(run_stateful_agent(user_id, "Refactor our authentication middleware using Clerk and OAuth2."))
+</code>
+      </pre>
+
+      <h2>5. Frequently Asked Questions (FAQ)</h2>
+      <div class="faq-container" style="margin-top: 24px;">
+        <details style="margin-bottom: 14px; background: var(--bg-surface); padding: 14px 18px; border-radius: 8px; border: 1px solid var(--border-light);">
+          <summary style="font-weight: 700; cursor: pointer; color: var(--text-main);">Why is naive context window dumping insufficient for long-running AI agents?</summary>
+          <p style="margin-top: 10px; color: var(--text-main); line-height: 1.6;">Passing millions of context tokens into LLMs incurs massive inference latency, high per-token costs, and severe attention degradation (the 'lost in the middle' phenomenon). Dedicated agentic memory systems filter, summarize, and retrieve only relevant episodic and semantic memories dynamically.</p>
+        </details>
+        
+        <details style="margin-bottom: 14px; background: var(--bg-surface); padding: 14px 18px; border-radius: 8px; border: 1px solid var(--border-light);">
+          <summary style="font-weight: 700; cursor: pointer; color: var(--text-main);">How does Mem0 differ from Zep in enterprise agentic architecture?</summary>
+          <p style="margin-top: 10px; color: var(--text-main); line-height: 1.6;">Mem0 uses a dynamic graph-vector hybrid approach that extracts atomic user preferences and updates entity relationships incrementally. Zep focuses on temporal chat history consolidation, automatic knowledge graph construction, and high-performance vector search over chat sessions.</p>
+        </details>
+
+        <details style="margin-bottom: 14px; background: var(--bg-surface); padding: 14px 18px; border-radius: 8px; border: 1px solid var(--border-light);">
+          <summary style="font-weight: 700; cursor: pointer; color: var(--text-main);">What are the four tiers of hierarchical agentic memory?</summary>
+          <p style="margin-top: 10px; color: var(--text-main); line-height: 1.6;">The four tiers are: 1) Working Memory (active prompt context), 2) Short-Term Memory (session turn cache), 3) Episodic Memory (past event sequences and tool execution logs), and 4) Semantic Memory (distilled facts, user preferences, and domain rules).</p>
+        </details>
+
+        <details style="margin-bottom: 14px; background: var(--bg-surface); padding: 14px 18px; border-radius: 8px; border: 1px solid var(--border-light);">
+          <summary style="font-weight: 700; cursor: pointer; color: var(--text-main);">How does Model Context Protocol (MCP) integrate with agentic memory?</summary>
+          <p style="margin-top: 10px; color: var(--text-main); line-height: 1.6;">MCP exposes memory CRUD operations as standardized JSON-RPC tools (e.g., memory_add, memory_search, memory_update). This allows autonomous AI agents to query and persist long-term state across any LLM backend seamlessly.</p>
+        </details>
+      </div>
+
+      <!-- AUTHOR BOX -->
+      <div class="author-box" style="margin-top: 40px; padding: 24px; background: var(--bg-surface); border-radius: 12px; border: 1px solid var(--border-light); display: flex; gap: 20px; align-items: center;">
+        <div style="width: 70px; height: 70px; border-radius: 50%; background: linear-gradient(135deg, #2563eb, #3b82f6); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 28px; font-weight: bold; flex-shrink: 0;">S</div>
+        <div>
+          <h4 style="margin: 0 0 6px 0; color: var(--text-main); font-size: 18px;">Starrope Tech & AI Editorial Team</h4>
+          <p style="margin: 0; color: var(--text-muted); font-size: 14px; line-height: 1.5;">Analyzing frontier AI engineering, agentic architecture, LLM systems, Model Context Protocol (MCP), and production software engineering practices in 2026.</p>
+        </div>
+      </div>
+
+    </article>
+    
+    <!-- RIGHT: SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Search Articles</h3>
+        <input type="text" class="search-input" placeholder="Type keywords...">
+      </div>
+
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Categories</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 8px;"><a href="../index.html#articles" style="color: var(--text-main); text-decoration: none;">AI Engineering</a></li>
+          <li style="margin-bottom: 8px;"><a href="../index.html#articles" style="color: var(--text-main); text-decoration: none;">LLM Architecture</a></li>
+          <li style="margin-bottom: 8px;"><a href="../index.html#articles" style="color: var(--text-main); text-decoration: none;">MCP Protocol</a></li>
+          <li style="margin-bottom: 8px;"><a href="../index.html#articles" style="color: var(--text-main); text-decoration: none;">DevOps & Infra</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Sponsored Links</h3>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1692428092138510"
+             data-ad-slot="9876540004"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" style="margin-top: 60px; padding: 40px 0; background: var(--bg-surface); border-top: 1px solid var(--border-light);">
+    <div class="container" style="text-align: center; color: var(--text-muted); font-size: 14px;">
+      <p style="margin-bottom: 12px;">&copy; 2026 Starrope Tech & AI. All rights reserved.</p>
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <a href="../privacy-policy.html" style="color: var(--text-muted);">Privacy Policy</a>
+        <a href="../terms-of-service.html" style="color: var(--text-muted);">Terms of Service</a>
+        <a href="../about.html" style="color: var(--text-muted);">About Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/main.js"></script>
+</body>
+</html>

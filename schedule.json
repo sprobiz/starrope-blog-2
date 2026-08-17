@@ -1,794 +1,804 @@
-{
-  "posts": [
-    {
-      "filename": "graph-rag-claude-37-mcp-enterprise-architecture.html",
-      "title": "Architecting Production Graph RAG Systems with Claude 3.7 Extended Reasoning and Model Context Protocol (MCP) in 2026",
-      "description": "Learn how combining Knowledge Graph RAG (Graph RAG) with Claude 3.7 Sonnet's extended reasoning and Model Context Protocol (MCP) eliminates hallucination in complex enterprise document retrieval in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Aug 14, 2026",
-      "publish_date": "2026-08-14",
-      "publish_time": "09:45"
-    },
-    {
-      "filename": "speculative-decoding-hybrid-reasoning-agentic-llm.html",
-      "title": "Speculative Decoding & Hybrid Reasoning: Accelerating Real-Time Autonomous AI Agents in Production (2026)",
-      "description": "Learn how combining speculative decoding with hybrid reasoning models reduces inference latency by up to 70% in high-throughput autonomous AI agent workflows in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Aug 10, 2026",
-      "publish_date": "2026-08-10",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "autonomous-code-review-agents-deepseek-r1-mcp.html",
-      "title": "Autonomous AI Code Review Agents: Implementing DeepSeek-R1 Reasoning with MCP for Production Repositories",
-      "description": "Discover how to build autonomous AI code review agents combining DeepSeek-R1 extended reasoning models with Model Context Protocol (MCP) tool integration for real-time security, performance, and AST linting.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Aug 7, 2026",
-      "publish_date": "2026-08-07",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "deepseek-v3-mcp-devsecops-agentic-pipeline.html",
-      "title": "Building Real-Time Autonomous DevSecOps Agents with DeepSeek-V3 and Model Context Protocol (MCP)",
-      "description": "Learn how to build real-time autonomous DevSecOps agents combining DeepSeek-V3, Model Context Protocol (MCP), and static security analysis tools for continuous vulnerability remediation in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Aug 5, 2026",
-      "publish_date": "2026-08-05",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "gemini-25-flash-agentic-mcp-workflows.html",
-      "title": "Architecting Multi-Modal Agentic Workflows with Gemini 2.5 Flash and Model Context Protocol (MCP) in 2026",
-      "description": "Learn how to build high-throughput, multi-modal autonomous AI agents combining Google's Gemini 2.5 Flash API with Model Context Protocol (MCP) tool integration in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 31, 2026",
-      "publish_date": "2026-07-31",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "crewai-deepseek-r1-mcp-agentic-workflow.html",
-      "title": "Building Autonomous Multi-Agent Workflows with CrewAI, DeepSeek-R1, and Model Context Protocol (MCP) in 2026",
-      "description": "Learn how to construct stateful, multi-agent software engineering pipelines using CrewAI, DeepSeek-R1 reasoning models, and Anthropic's Model Context Protocol (MCP) tools in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 30, 2026",
-      "publish_date": "2026-07-30",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "local-ai-agents-ollama-deepseek-r1-qdrant.html",
-      "title": "Building Fully Local Autonomous AI Agents with Ollama, DeepSeek-R1, and Qdrant (2026 Guide)",
-      "description": "Learn how to deploy zero-cost, privacy-first autonomous AI coding and research agents locally using Ollama, DeepSeek-R1 reasoning models, and Qdrant vector database in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 28, 2026",
-      "publish_date": "2026-07-28",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "claude-37-mcp-agentic-refactoring-guide.html",
-      "title": "Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and Model Context Protocol (MCP)",
-      "description": "Learn how to combine Claude 3.7 Sonnet's hybrid reasoning with Model Context Protocol (MCP) tools to build stateful multi-agent systems for autonomous codebase refactoring in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 26, 2026",
-      "publish_date": "2026-07-26",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "browser-use-autonomous-web-agents.html",
-      "title": "Getting Started with Browser-Use: Build Autonomous AI Web Agents using Python",
-      "description": "Learn how to build autonomous AI web agents using Browser-Use, Python, and Playwright. Automate complex browser tasks, web research, and SaaS workflows.",
-      "image_url": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 15, 2026",
-      "publish_date": "2026-07-15",
-      "publish_time": "22:00"
-    },
-    {
-      "filename": "structured-outputs-pydantic-type-safety.html",
-      "title": "Structured Outputs with Pydantic: Ensuring Type Safety in LLM APIs",
-      "description": "Learn how to leverage Pydantic to enforce structured outputs from OpenAI and Anthropic APIs. Ensure type safety, schema validation, and zero-error parsing in production.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 13, 2026",
-      "publish_date": "2026-07-13",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "langgraph-multi-agent-gemini-flash.html",
-      "title": "Building Collaborative Multi-Agent Systems with LangGraph and Gemini Flash",
-      "description": "Discover how to design and build stateful, collaborative multi-agent systems using LangGraph and Google's Gemini Flash. Step-by-step implementation guide.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 11, 2026",
-      "publish_date": "2026-07-11",
-      "publish_time": "10:00"
-    },
-    {
-      "filename": "llm-prompt-caching-agentic-workflows.html",
-      "title": "LLM Prompt Caching: Minimizing Costs in Agentic Workflows",
-      "description": "Learn how LLM prompt caching (Anthropic, OpenAI, DeepSeek) optimizes latency and costs in stateful, agentic workflows. Best practices and design patterns for 2026.",
-      "image_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 10, 2026",
-      "publish_date": "2026-07-10",
-      "publish_time": "22:00"
-    },
-    {
-      "filename": "model-context-protocol-mcp-guide.html",
-      "title": "Model Context Protocol (MCP): The New Standard for Context-Aware AI Development",
-      "description": "Explore how Model Context Protocol (MCP) integrates LLMs with custom data sources, local files, and APIs in 2026. Guide to building context-aware AI tools.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 7, 2026",
-      "publish_date": "2026-07-07",
-      "publish_time": "12:00"
-    },
-    {
-      "filename": "cursor-composer-large-monorepos.html",
-      "title": "Optimizing Cursor AI Composer Mode for Large Monorepos: Directory Context vs File Pinning",
-      "description": "Learn how to structure your directory context and use file pinning to optimize Cursor AI Composer Mode for large scale monorepos, reducing context waste and costs.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jul 6, 2026",
-      "publish_date": "2026-07-06",
-      "publish_time": "22:00"
-    },
-    {
-      "filename": "langgraph-agentic-workflows.html",
-      "title": "Developing AI Agents with LangGraph: Designing Statecharts for Complex Workflows",
-      "description": "Discover how to build complex, multi-agent autonomous systems using LangGraph. Learn to design cyclic statecharts, manage persistent conversational state, and implement human-in-the-loop validation.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 3, 2026",
-      "publish_date": "2026-07-03",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "claude-35-sonnet-system-prompts-codebase.html",
-      "title": "How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits",
-      "description": "Learn how to design custom system prompts for Claude 3.5 Sonnet to handle complex, multi-file codebase edits, minimize context drift, and prevent broken imports.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jul 2, 2026 (08:00 AM)",
-      "publish_date": "2026-07-02",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "deepseek-r1-vs-claude-sonnet-coding.html",
-      "title": "DeepSeek-R1 vs Claude 3.5 Sonnet: Benchmarking LLMs for Multi-File AI Coding in 2026",
-      "description": "An in-depth developer comparison between DeepSeek-R1 and Anthropic Claude 3.5 Sonnet. Discover which reasoning model optimizes software engineering workflows, AI agent execution, and repository refactoring.",
-      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 21, 2026 (11:00 PM)",
-      "publish_date": "2026-06-21",
-      "publish_time": "23:00"
-    },
-    {
-      "filename": "build-ai-agents-python.html",
-      "title": "How to Build an AI-Powered Agent in 2026: A Step-by-Step Guide with Python",
-      "description": "Learn how to build a production-grade autonomous AI agent in 2026 using Python, modern agentic frameworks, and key optimization patterns for real-world tasks.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jun 16, 2026 (10:00 AM)",
-      "publish_date": "2026-06-16",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "vscode-vs-cursor-ai.html",
-      "title": "VS Code vs Cursor AI Editor: Why Millions of Developers Are Switching in 2026",
-      "description": "Compare VS Code and Cursor AI Editor in 2026. Explore native LLM integration, Composer mode multi-file edits, and why professional developers are switching.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 2, 2026",
-      "publish_date": "2026-06-02",
-      "publish_time": "10:00"
-    },
-    {
-      "filename": "claude-artifacts-react.html",
-      "title": "Claude 3.5 Sonnet Artifacts: Fast React Scaffolding & Component Design",
-      "description": "Master React component prototyping and scaffolding with Claude 3.5 Sonnet Artifacts. Learn how to write structured prompts for interactive UI, micro-animations, and production-ready code.",
-      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jun 3, 2026",
-      "publish_date": "2026-06-03",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "ergonomic-office-setup.html",
-      "title": "Ultimate Ergonomic Developer Desk Setup: Defeating Tech Neck & Wrist Pain",
-      "description": "Build the ultimate ergonomic desk setup as a software engineer. Compare split keyboards, vertical mice, monitor arm configurations, and active sitting solutions.",
-      "image_url": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Setup",
-      "date_display": "Jun 4, 2026",
-      "publish_date": "2026-06-04",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "chatgpt-prompt-para.html",
-      "title": "ChatGPT Prompt Engineering & The PARA Method: Organizing Your AI Workspace",
-      "description": "Integrate ChatGPT prompt engineering principles with Tiago Forte's PARA system. Organize your AI instructions, context resources, projects, and archives dynamically.",
-      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jun 5, 2026",
-      "publish_date": "2026-06-05",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "git-github-saas-founder.html",
-      "title": "Git & GitHub Releasing for Solo SaaS Founders: Auto-Changelogs & CI/CD",
-      "description": "Standardize release management as a solo founder. Master Git branching structures, GitHub Actions release automation, semantic versioning CI/CD, and auto-changelogs.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 6, 2026 (2:00 PM)",
-      "publish_date": "2026-06-06",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "anthropic-vs-openai-api.html",
-      "title": "Anthropic Claude API vs OpenAI API: Cost Optimization & Latency Strategies for SaaS Founders in 2026",
-      "description": "Compare Anthropic Claude and OpenAI APIs in 2026. Explore key features like prompt caching, token pricing strategies, latency optimization, and custom orchestration.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jun 7, 2026 (2:00 PM)",
-      "publish_date": "2026-06-07",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "nextjs-server-components-guide.html",
-      "title": "Mastering Next.js Server Components: Common Caching, Data Fetching & Hydration Pitfalls",
-      "description": "Learn to manage Next.js Server Components, Suspense boundaries, and hydration mismatch errors. Master developer caching architectures and optimize backend performance.",
-      "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 8, 2026 (2:00 PM)",
-      "publish_date": "2026-06-08",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "digital-nomad-hubs-asia.html",
-      "title": "Top Digital Nomad Hubs in Southeast Asia for 2026: Cost, Internet Speed, & Visa Feasibility",
-      "description": "Reviewing Southeast Asia's best digital nomad destinations: Chiang Mai, Bali, Kuala Lumpur, and Da Nang. Compare internet speed, average monthly cost, and remote work visa options.",
-      "image_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 9, 2026 (2:00 PM)",
-      "publish_date": "2026-06-09",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "nextjs-tailwind-cursorrules.html",
-      "title": "Writing Custom .cursorrules for Next.js & Tailwind CSS: The Ultimate Developer Blueprint",
-      "description": "Configure system rules and .cursorrules instructions for clean Tailwind styling and structured Next.js logic. Eliminate hallucination loops in Cursor editor projects.",
-      "image_url": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 10, 2026 (2:00 PM)",
-      "publish_date": "2026-06-10",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "coolify-vs-aws-bootstrap.html",
-      "title": "Self-Hosting vs AWS: Why Solo Developers Are Switching to Coolify and Supabase in 2026",
-      "description": "Compare cost structures of Coolify, Supabase, and AWS for bootstrapped SaaS apps. Explore docker-compose setup, auto-deployments, and database backup configurations.",
-      "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 11, 2026 (2:00 PM)",
-      "publish_date": "2026-06-11",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "mechanical-keyboard-ergonomics.html",
-      "title": "The Ultimate Guide to Keyboard Ergonomics: Split Keyboards, Layouts, and QMK/VIA Re-mapping",
-      "description": "Ergonomic workspace configurations for software developers. Learn about split ortholinear layouts, custom keycaps, tenting accessories, and programming keymaps via QMK/VIA.",
-      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Setup",
-      "date_display": "Jun 12, 2026 (2:00 PM)",
-      "publish_date": "2026-06-12",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "rag-pipeline-embeddings-limit.html",
-      "title": "Building Production-Ready RAG Pipelines: Mitigating Vector Search Latency and Embedding Overlap",
-      "description": "Tackle semantic search challenges. Master vector chunk sizes, embedding overlapping rules, and indexing strategies using hybrid search tools and Pinecone databases.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jun 13, 2026 (2:00 PM)",
-      "publish_date": "2026-06-13",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "saas-security-clerk-oauth.html",
-      "title": "SaaS Security Checklist 2026: Setting Up Clerk OAuth, JWT Verification, & Rate Limiting",
-      "description": "Secure your serverless SaaS application. Learn how to validate JWT signatures, manage session persistence, integrate Clerk OAuth providers, and avoid API flooding.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 14, 2026 (2:00 PM)",
-      "publish_date": "2026-06-14",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "remote-work-travel-tech-stack.html",
-      "title": "Essential Travel Tech Stack for Remote Developers: eSIMs, Global Accounts, and Security VPNs",
-      "description": "The technical packing checklist for digital nomad developers. Learn how to configure wireguard VPNs, manage mobile data with eSIM cards, and handle payments globally.",
-      "image_url": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 15, 2026 (2:00 PM)",
-      "publish_date": "2026-06-15",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "digital-nomad-visas-2026.html",
-      "title": "Top High-Yield Digital Nomad Visas for 2026: Tax Residency & Setup",
-      "description": "Compare the best global digital nomad visas for 2026. Explore legal tax structures, income thresholds, and how to optimize your global remote workspace.",
-      "image_url": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 16, 2026 (2:00 PM)",
-      "publish_date": "2026-06-16",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "cursor-ai-productivity.html",
-      "title": "The Ultimate Cursor AI Setup Guide: Custom .cursorrules & Keyboard Shortcuts",
-      "description": "Configure Cursor AI editor for elite software development speed. Master custom .cursorrules setups, AI settings, and high-performance keyboard shortcuts.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 17, 2026 (2:00 PM)",
-      "publish_date": "2026-06-17",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "claude-coding-prompts.html",
-      "title": "Advanced Claude 3.5 Sonnet Prompt Architecture: Refactoring & Testing",
-      "description": "Master advanced Claude 3.5 Sonnet prompt engineering templates. Generate perfect integration tests, auto-refactor complex codebases, and eliminate AI hallucinations.",
-      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Prompting",
-      "date_display": "Jun 18, 2026 (2:00 PM)",
-      "publish_date": "2026-06-18",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "make-automation-chatgpt.html",
-      "title": "Building No-Code AI Workflows: Connecting Make.com with ChatGPT",
-      "description": "Learn to build automated, no-code workflows combining Make.com and ChatGPT. Connect databases, trigger email sequences, and automate content pipelines easily.",
-      "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Automation",
-      "date_display": "Jun 19, 2026 (2:00 PM)",
-      "publish_date": "2026-06-19",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "ssg-jekyll-hugo-astro.html",
-      "title": "Jekyll vs Hugo vs Astro: Choosing the Best Static Site Generator in 2026",
-      "description": "Compare Jekyll, Hugo, and Astro for building high-performance static websites. Explore speed, developer experience, SEO optimization, and deployment pathways.",
-      "image_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 20, 2026 (2:00 PM)",
-      "publish_date": "2026-06-20",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "technical-seo-robots-sitemap.html",
-      "title": "Technical SEO Checklist: Optimizing robots.txt and XML Sitemaps",
-      "description": "Ensure search engine crawlers index your site efficiently. A complete technical SEO guide to configuring robots.txt, dynamic XML sitemaps, and crawl budgets.",
-      "image_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      "tag": "SEO & Marketing",
-      "date_display": "Jun 21, 2026 (2:00 PM)",
-      "publish_date": "2026-06-21",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "webp-image-seo-optimization.html",
-      "title": "Next-Gen Image Optimization: WebP Conversion for Page Speed and SEO",
-      "description": "Speed up your website's loading times and satisfy Google Core Web Vitals by converting images to WebP. Explore compression tools and responsive markup strategies.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 22, 2026 (2:00 PM)",
-      "publish_date": "2026-06-22",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "nodejs-express-api-server.html",
-      "title": "Backend Development 101: Building Your First API Server with Node.js and Express",
-      "description": "A beginner-friendly guide to building a RESTful API server using Node.js and the Express framework. Learn routing, middleware setup, and request-response cycles.",
-      "image_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 23, 2026 (2:00 PM)",
-      "publish_date": "2026-06-23",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "chatgpt-advanced-data-analysis.html",
-      "title": "No-Code Data Science: Master ChatGPT Advanced Data Analysis",
-      "description": "Leverage ChatGPT Advanced Data Analysis to clean dirty datasets, extract key business metrics, and generate charts without coding.",
-      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Productivity",
-      "date_display": "Jun 24, 2026 (2:00 PM)",
-      "publish_date": "2026-06-24",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "github-projects-kanban-solo.html",
-      "title": "GitHub Projects & Issue Tracking: Setting Up a Kanban Workflow for Solo Developers",
-      "description": "Streamline your development cycles using GitHub Projects and issues. Learn how to configure custom Kanban boards, prioritize tasks, and manage release milestones.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Productivity",
-      "date_display": "Jun 25, 2026 (2:00 PM)",
-      "publish_date": "2026-06-25",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "gemini-ai-guide.html",
-      "title": "Mastering Google Gemini AI: Native Multimodal Strategies to Outperform ChatGPT",
-      "description": "Unlock the full potential of Google's native multimodal AI Gemini. Explore key features like massive context windows, Google Workspace integration, and Code Assist.",
-      "image_url": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Productivity",
-      "date_display": "Jun 26, 2026 (2:00 PM)",
-      "publish_date": "2026-06-26",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "tailwind-css-v4-features.html",
-      "title": "What's New in Tailwind CSS v4.0: High-Performance Utility Styling for Next.js",
-      "description": "Unlock the maximum potential of Tailwind CSS v4.0. Learn about the new Rust-based compiler engine, CSS-native configuration files, and seamless utility integrations.",
-      "image_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 27, 2026 (2:00 PM)",
-      "publish_date": "2026-06-27",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "typescript-advanced-types-guide.html",
-      "title": "Mastering TypeScript Advanced Types: Generics, Mapped Types, and Conditional Utility Types",
-      "description": "Elevate your JavaScript development with advanced TypeScript patterns. Master utility types, custom generics, mapped properties, and runtime type assertions.",
-      "image_url": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 28, 2026 (2:00 PM)",
-      "publish_date": "2026-06-28",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "jwt-oauth2-security-api.html",
-      "title": "API Authentication Best Practices: JWT Signatures, OAuth 2.0, and Clerk Setup",
-      "description": "Secure your web applications and API servers. Compare JWT token storage, configure OAuth 2.0 social login, and integrate Clerk authentication services.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 29, 2026 (2:00 PM)",
-      "publish_date": "2026-06-29",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "react-state-management-2026.html",
-      "title": "React State Management in 2026: Comparing Zustand, Recoil, and Context API",
-      "description": "Choose the best state management library for your React projects in 2026. Compare Zustand, Recoil, Redux Toolkit, and built-in Context APIs.",
-      "image_url": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 30, 2026 (2:00 PM)",
-      "publish_date": "2026-06-30",
-      "publish_time": "14:00"
-    },
-    {
-      "filename": "cursor-ai-composer-guide.html",
-      "title": "How to Use Cursor AI Composer for Multi-File Refactoring",
-      "description": "Master Cursor's Composer mode to edit and refactor multiple files simultaneously. Learn keyboard shortcuts, file context linking, and AI debugging tips.",
-      "image_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 7, 2026 (07:00 AM)",
-      "publish_date": "2026-06-07",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "v0-dev-ai-ui-design.html",
-      "title": "Rapid UI Prototyping with Vercel v0: A Developer's Guide",
-      "description": "Learn how to generate React and Tailwind CSS components using Vercel v0. Explore prompt engineering for UI design and exporting clean code to Next.js.",
-      "image_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 8, 2026 (07:00 AM)",
-      "publish_date": "2026-06-08",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "bolt-new-ai-stack.html",
-      "title": "Building Fullstack Apps in the Browser with Bolt.new",
-      "description": "Discover Bolt.new, the web-based development environment that builds, runs, and deploys fullstack applications from a single text prompt.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI & Productivity",
-      "date_display": "Jun 9, 2026 (07:00 AM)",
-      "publish_date": "2026-06-09",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "self-hosting-n8n-vps.html",
-      "title": "Self-Hosting n8n on a VPS: Automated Workflows for Free",
-      "description": "Save money on Zapier by self-hosting n8n on a cheap VPS. Step-by-step guide to Docker setup, SSL certification, and webhook integrations.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 10, 2026 (07:00 AM)",
-      "publish_date": "2026-06-10",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "cloudflare-tunnel-local-dev.html",
-      "title": "Secure Local Web Servers with Cloudflare Tunnels",
-      "description": "Expose your local development environment to the internet securely without opening firewall ports. Setup Cloudflare Tunnels for webhook testing.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 11, 2026 (07:00 AM)",
-      "publish_date": "2026-06-11",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "nextjs-static-site-adsense.html",
-      "title": "Optimizing Next.js Static Sites for Google AdSense Approval",
-      "description": "Step-by-step guide to getting Google AdSense approval on Next.js Static Site Generation (SSG) blogs. Fix layout shifts and ad rendering loops.",
-      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 12, 2026 (07:00 AM)",
-      "publish_date": "2026-06-12",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "supabase-rls-security-rules.html",
-      "title": "Supabase Row Level Security (RLS): Protecting User Data",
-      "description": "Master database security in Supabase. Write robust Row Level Security rules, handle public tables, and secure API keys in client-side apps.",
-      "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 13, 2026 (07:00 AM)",
-      "publish_date": "2026-06-13",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "docker-containers-beginner-dev.html",
-      "title": "Docker Containers 101: A Beginner Developer's Guide",
-      "description": "Understand containerization basics. Build Dockerfiles, manage multi-container apps with Docker Compose, and simplify local dev environments.",
-      "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 14, 2026 (07:00 AM)",
-      "publish_date": "2026-06-14",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "github-copilot-workspace-review.html",
-      "title": "GitHub Copilot Workspace: Next-Gen AI Agent Development",
-      "description": "An in-depth review of GitHub Copilot Workspace. Learn how AI agents plan, execute, and debug code modifications directly inside GitHub repositories.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jun 15, 2026 (07:00 AM)",
-      "publish_date": "2026-06-15",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "digital-nomad-insurance-safetywing.html",
-      "title": "Choosing Health Insurance for Digital Nomads: SafetyWing Review",
-      "description": "Compare medical and travel insurance options for remote workers. An honest review of SafetyWing Nomad Insurance coverage, claims, and pricing.",
-      "image_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 16, 2026 (07:00 AM)",
-      "publish_date": "2026-06-16",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "setup-personal-vpn-wireguard.html",
-      "title": "Setting Up a Personal WireGuard VPN Server on Ubuntu",
-      "description": "Protect your data on public Wi-Fi networks. Install and configure a WireGuard VPN server on a cheap Ubuntu VPS for encrypted remote work.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 17, 2026 (07:00 AM)",
-      "publish_date": "2026-06-17",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "monetizing-open-source-projects.html",
-      "title": "How to Monetize Your Open-Source Software Projects",
-      "description": "Explore sustainable funding models for open-source developers. Learn about open-core, hosting SaaS, GitHub Sponsors, and corporate sponsorships.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Productivity",
-      "date_display": "Jun 18, 2026 (07:00 AM)",
-      "publish_date": "2026-06-18",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "notion-api-dashboard-builder.html",
-      "title": "Building Custom Dashboards with the Notion API and Node.js",
-      "description": "Connect your databases to custom frontend interfaces. Integrate the Notion API to fetch, update, and display project metrics dynamically.",
-      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Productivity",
-      "date_display": "Jun 19, 2026 (07:00 AM)",
-      "publish_date": "2026-06-19",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "tailwind-css-utility-vs-inline.html",
-      "title": "Tailwind CSS Utility Classes vs Inline CSS Styles",
-      "description": "An analytical comparison of Tailwind utility-first styling versus native inline styles. Discover build performance differences and class bloating issues.",
-      "image_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 20, 2026 (07:00 AM)",
-      "publish_date": "2026-06-20",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "core-web-vitals-cls-fix.html",
-      "title": "How to Fix Cumulative Layout Shift (CLS) in Modern Web Apps",
-      "description": "Improve your Google PageSpeed Insights score by fixing Cumulative Layout Shift. Learn to reserve spaces for images, ads, and dynamic content.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 21, 2026 (07:00 AM)",
-      "publish_date": "2026-06-21",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "hugo-static-site-github-pages.html",
-      "title": "Hosting Hugo Blogs on GitHub Pages: Zero Cost Web Deployment",
-      "description": "Build a lightning-fast blog using Hugo and host it for free on GitHub Pages. Configure custom domains, SSL certificates, and auto builds.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 22, 2026 (07:00 AM)",
-      "publish_date": "2026-06-22",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "remote-developer-salary-negotiation.html",
-      "title": "Salary Negotiation Tips for Global Remote Software Engineers",
-      "description": "Negotiate higher remote salaries with US and EU companies. Master market rate research, handling currency conversions, and equity negotiations.",
-      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 23, 2026 (07:00 AM)",
-      "publish_date": "2026-06-23",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "passive-income-micro-saas.html",
-      "title": "Building Micro-SaaS Products for Recurring Passive Income",
-      "description": "Identify small problems and solve them with Micro-SaaS. Explore market validation, building MVPs with Next.js, and automated Stripe billing.",
-      "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 24, 2026 (07:00 AM)",
-      "publish_date": "2026-06-24",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "resend-email-api-react-email.html",
-      "title": "Sending Transactional Emails with Resend and React Email",
-      "description": "Design and send modern HTML emails programmatically. Integrate Resend API with React Email for responsive layout rendering.",
-      "image_url": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 25, 2026 (07:00 AM)",
-      "publish_date": "2026-06-25",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "upstash-redis-rate-limiting.html",
-      "title": "Implementing API Rate Limiting with Upstash Serverless Redis",
-      "description": "Protect serverless functions and endpoints from abuse. Set up Upstash Redis with Next.js middleware for low-latency rate limiting.",
-      "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 26, 2026 (07:00 AM)",
-      "publish_date": "2026-06-26",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "pnpm-vs-npm-yarn-performance.html",
-      "title": "pnpm vs npm vs Yarn: Package Manager Performance in 2026",
-      "description": "Understand why developers are migrating to pnpm in 2026. Explore hard link node_modules, disk space savings, and fast build compilation.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "Developer Productivity",
-      "date_display": "Jun 27, 2026 (07:00 AM)",
-      "publish_date": "2026-06-27",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "seo-auditing-screaming-frog.html",
-      "title": "Technical SEO Auditing for Web Developers with Screaming Frog",
-      "description": "Find broken links, duplicate meta tags, and indexing issues. Perform a complete technical SEO audit of your site using Screaming Frog.",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "Web Development",
-      "date_display": "Jun 28, 2026 (07:00 AM)",
-      "publish_date": "2026-06-28",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "digital-nomad-taxation-foreign-income.html",
-      "title": "Tax Compliance and Foreign Income for Global Digital Nomads",
-      "description": "Navigate complex global tax systems. Learn about FEIE for US citizens, tax residency rules in Europe, and staying compliant while traveling.",
-      "image_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80",
-      "tag": "Digital Nomad Life",
-      "date_display": "Jun 29, 2026 (07:00 AM)",
-      "publish_date": "2026-06-29",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "vercel-alternatives-indie-hackers.html",
-      "title": "Vercel Alternatives in 2026: Coolify, Dokku, and Render",
-      "description": "Review top hosting alternatives for indie hackers in 2026. Compare Vercel serverless limitations with self-hosted VPS and Docker PaaS options.",
-      "image_url": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&q=80",
-      "tag": "DevOps & SaaS",
-      "date_display": "Jun 30, 2026 (07:00 AM)",
-      "publish_date": "2026-06-30",
-      "publish_time": "07:00"
-    },
-    {
-      "filename": "github-copilot-vs-cursor-ai.html",
-      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
-      "tag": "Coding",
-      "date_display": "Jun 18, 2026 (08:20 AM)",
-      "title": "GitHub Copilot vs Cursor AI: Definitive Developer Tool Comparison in 2026",
-      "description": "Evaluate GitHub Copilot and Cursor AI for software engineering. Discover which tool maximizes coding speed, multi-file edits, and project comprehension.",
-      "publish_date": "2026-06-18",
-      "publish_time": "08:20"
-    },
-    {
-      "filename": "claude-artifacts-no-code-guide.html",
-      "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Tools",
-      "date_display": "Jun 18, 2026",
-      "title": "Claude 3.5 Sonnet Artifacts: The Ultimate Guide to No-Code Software Development",
-      "description": "Unlock the potential of Claude 3.5 Sonnet Artifacts for no-code development. Learn how to generate, refine, and deploy full web applications without writing code.",
-      "publish_date": "2026-06-18",
-      "publish_time": "08:00"
-    },
-    {
-      "filename": "v0-vercel-frontend-generation.html",
-      "image_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Tools",
-      "date_display": "Jun 19, 2026",
-      "title": "Vercel v0: The Ultimate Guide to Generative Frontend UI Development",
-      "description": "Master Vercel's v0 generative UI platform. Learn how to write effective prompts to build modern, responsive React and Tailwind CSS interfaces instantly.",
-      "publish_date": "2026-06-19",
-      "publish_time": "08:30"
-    },
-    {
-      "filename": "programmatic-seo-solo-developers.html",
-      "title": "Programmatic SEO for Solo Developers: Automating High-CPC Organic Traffic Pipelines",
-      "description": "Master programmatic SEO as a solo developer in 2026. Learn how to target high-CPC keywords, generate high-quality pages with AI, and optimize Google AdSense earnings.",
-      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      "tag": "SEO & Marketing",
-      "date_display": "Jun 19, 2026",
-      "publish_date": "2026-06-19",
-      "publish_time": "10:00"
-    },
-    {
-      "filename": "windsurf-vs-cursor-ai-editor.html",
-      "title": "Windsurf Editor vs Cursor: A Developer's Hands-On Comparison in 2026",
-      "description": "An in-depth hands-on comparison between Windsurf Editor and Cursor AI. Discover which AI-powered IDE provides superior agentic loops, multi-file code editing, and context awareness in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jul 1, 2026 (06:30 AM)",
-      "publish_date": "2026-07-01",
-      "publish_time": "06:30"
-    },
-    {
-      "filename": "roo-code-autonomous-ai-coding-agent.html",
-      "title": "Roo Code (Roo Cline): The Ultimate Autonomous AI Coding Agent for VS Code",
-      "description": "Discover how Roo Code (Roo Cline) transforms VS Code with autonomous agentic coding. Learn how to configure custom system prompts, select the best LLMs, and automate software development.",
-      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Code Editors",
-      "date_display": "Jul 9, 2026",
-      "publish_date": "2026-07-09",
-      "publish_time": "22:00"
-    },
-    {
-      "filename": "claude-37-sonnet-hybrid-reasoning-developer-guide.html",
-      "title": "Mastering Claude 3.7 Sonnet Hybrid Reasoning: A Guide for Developers",
-      "description": "Explore Claude 3.7 Sonnet's hybrid reasoning capabilities. Learn how to toggle thinking budgets, optimize API parameters, and execute complex codebase edits.",
-      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 12, 2026",
-      "publish_date": "2026-07-12",
-      "publish_time": "15:00"
-    },
-    {
-      "filename": "openai-o3-mini-vs-claude-37-sonnet.html",
-      "title": "OpenAI o3-mini vs Claude 3.7 Sonnet: Benchmarking Reasoning Models for Developers",
-      "description": "Compare OpenAI o3-mini and Claude 3.7 Sonnet for developer workflows. Analyze speed, reasoning effort, API parameters, and tool execution in 2026.",
-      "image_url": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80",
-      "tag": "AI Engineering",
-      "date_display": "Jul 17, 2026",
-      "publish_date": "2026-07-17",
-      "publish_time": "10:30"
-    }
-  ]
+﻿{
+    "posts":  [
+                  {
+                      "filename":  "agentic-memory-zep-mem0-hierarchical-retrieval.html",
+                      "title":  "Architecting Enterprise Agentic Memory Systems: Implementing Mem0, Zep, and Hierarchical Retrieval in Autonomous AI Pipelines (2026)",
+                      "description":  "Learn how to architect long-term, stateful agentic memory for production AI agents in 2026. Compare Mem0 vs Zep, implement hierarchical episodic \u0026 semantic memory, and integrate with Model Context Protocol (MCP).",
+                      "image_url":  "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 17, 2026",
+                      "publish_date":  "2026-08-17",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "graph-rag-claude-37-mcp-enterprise-architecture.html",
+                      "title":  "Architecting Production Graph RAG Systems with Claude 3.7 Extended Reasoning and Model Context Protocol (MCP) in 2026",
+                      "description":  "Learn how combining Knowledge Graph RAG (Graph RAG) with Claude 3.7 Sonnet\u0027s extended reasoning and Model Context Protocol (MCP) eliminates hallucination in complex enterprise document retrieval in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 14, 2026",
+                      "publish_date":  "2026-08-14",
+                      "publish_time":  "09:45"
+                  },
+                  {
+                      "filename":  "speculative-decoding-hybrid-reasoning-agentic-llm.html",
+                      "title":  "Speculative Decoding \u0026 Hybrid Reasoning: Accelerating Real-Time Autonomous AI Agents in Production (2026)",
+                      "description":  "Learn how combining speculative decoding with hybrid reasoning models reduces inference latency by up to 70% in high-throughput autonomous AI agent workflows in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 10, 2026",
+                      "publish_date":  "2026-08-10",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "autonomous-code-review-agents-deepseek-r1-mcp.html",
+                      "title":  "Autonomous AI Code Review Agents: Implementing DeepSeek-R1 Reasoning with MCP for Production Repositories",
+                      "description":  "Discover how to build autonomous AI code review agents combining DeepSeek-R1 extended reasoning models with Model Context Protocol (MCP) tool integration for real-time security, performance, and AST linting.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 7, 2026",
+                      "publish_date":  "2026-08-07",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "deepseek-v3-mcp-devsecops-agentic-pipeline.html",
+                      "title":  "Building Real-Time Autonomous DevSecOps Agents with DeepSeek-V3 and Model Context Protocol (MCP)",
+                      "description":  "Learn how to build real-time autonomous DevSecOps agents combining DeepSeek-V3, Model Context Protocol (MCP), and static security analysis tools for continuous vulnerability remediation in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 5, 2026",
+                      "publish_date":  "2026-08-05",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "gemini-25-flash-agentic-mcp-workflows.html",
+                      "title":  "Architecting Multi-Modal Agentic Workflows with Gemini 2.5 Flash and Model Context Protocol (MCP) in 2026",
+                      "description":  "Learn how to build high-throughput, multi-modal autonomous AI agents combining Google\u0027s Gemini 2.5 Flash API with Model Context Protocol (MCP) tool integration in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 31, 2026",
+                      "publish_date":  "2026-07-31",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "crewai-deepseek-r1-mcp-agentic-workflow.html",
+                      "title":  "Building Autonomous Multi-Agent Workflows with CrewAI, DeepSeek-R1, and Model Context Protocol (MCP) in 2026",
+                      "description":  "Learn how to construct stateful, multi-agent software engineering pipelines using CrewAI, DeepSeek-R1 reasoning models, and Anthropic\u0027s Model Context Protocol (MCP) tools in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 30, 2026",
+                      "publish_date":  "2026-07-30",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "local-ai-agents-ollama-deepseek-r1-qdrant.html",
+                      "title":  "Building Fully Local Autonomous AI Agents with Ollama, DeepSeek-R1, and Qdrant (2026 Guide)",
+                      "description":  "Learn how to deploy zero-cost, privacy-first autonomous AI coding and research agents locally using Ollama, DeepSeek-R1 reasoning models, and Qdrant vector database in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 28, 2026",
+                      "publish_date":  "2026-07-28",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "claude-37-mcp-agentic-refactoring-guide.html",
+                      "title":  "Autonomous Multi-Agent Codebase Refactoring with Claude 3.7 Sonnet and Model Context Protocol (MCP)",
+                      "description":  "Learn how to combine Claude 3.7 Sonnet\u0027s hybrid reasoning with Model Context Protocol (MCP) tools to build stateful multi-agent systems for autonomous codebase refactoring in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 26, 2026",
+                      "publish_date":  "2026-07-26",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "browser-use-autonomous-web-agents.html",
+                      "title":  "Getting Started with Browser-Use: Build Autonomous AI Web Agents using Python",
+                      "description":  "Learn how to build autonomous AI web agents using Browser-Use, Python, and Playwright. Automate complex browser tasks, web research, and SaaS workflows.",
+                      "image_url":  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 15, 2026",
+                      "publish_date":  "2026-07-15",
+                      "publish_time":  "22:00"
+                  },
+                  {
+                      "filename":  "structured-outputs-pydantic-type-safety.html",
+                      "title":  "Structured Outputs with Pydantic: Ensuring Type Safety in LLM APIs",
+                      "description":  "Learn how to leverage Pydantic to enforce structured outputs from OpenAI and Anthropic APIs. Ensure type safety, schema validation, and zero-error parsing in production.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 13, 2026",
+                      "publish_date":  "2026-07-13",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "langgraph-multi-agent-gemini-flash.html",
+                      "title":  "Building Collaborative Multi-Agent Systems with LangGraph and Gemini Flash",
+                      "description":  "Discover how to design and build stateful, collaborative multi-agent systems using LangGraph and Google\u0027s Gemini Flash. Step-by-step implementation guide.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 11, 2026",
+                      "publish_date":  "2026-07-11",
+                      "publish_time":  "10:00"
+                  },
+                  {
+                      "filename":  "llm-prompt-caching-agentic-workflows.html",
+                      "title":  "LLM Prompt Caching: Minimizing Costs in Agentic Workflows",
+                      "description":  "Learn how LLM prompt caching (Anthropic, OpenAI, DeepSeek) optimizes latency and costs in stateful, agentic workflows. Best practices and design patterns for 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 10, 2026",
+                      "publish_date":  "2026-07-10",
+                      "publish_time":  "22:00"
+                  },
+                  {
+                      "filename":  "model-context-protocol-mcp-guide.html",
+                      "title":  "Model Context Protocol (MCP): The New Standard for Context-Aware AI Development",
+                      "description":  "Explore how Model Context Protocol (MCP) integrates LLMs with custom data sources, local files, and APIs in 2026. Guide to building context-aware AI tools.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 7, 2026",
+                      "publish_date":  "2026-07-07",
+                      "publish_time":  "12:00"
+                  },
+                  {
+                      "filename":  "cursor-composer-large-monorepos.html",
+                      "title":  "Optimizing Cursor AI Composer Mode for Large Monorepos: Directory Context vs File Pinning",
+                      "description":  "Learn how to structure your directory context and use file pinning to optimize Cursor AI Composer Mode for large scale monorepos, reducing context waste and costs.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jul 6, 2026",
+                      "publish_date":  "2026-07-06",
+                      "publish_time":  "22:00"
+                  },
+                  {
+                      "filename":  "langgraph-agentic-workflows.html",
+                      "title":  "Developing AI Agents with LangGraph: Designing Statecharts for Complex Workflows",
+                      "description":  "Discover how to build complex, multi-agent autonomous systems using LangGraph. Learn to design cyclic statecharts, manage persistent conversational state, and implement human-in-the-loop validation.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 3, 2026",
+                      "publish_date":  "2026-07-03",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "claude-35-sonnet-system-prompts-codebase.html",
+                      "title":  "How to Optimize Claude 3.5 Sonnet System Prompts for Multi-File Codebase Edits",
+                      "description":  "Learn how to design custom system prompts for Claude 3.5 Sonnet to handle complex, multi-file codebase edits, minimize context drift, and prevent broken imports.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jul 2, 2026 (08:00 AM)",
+                      "publish_date":  "2026-07-02",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "deepseek-r1-vs-claude-sonnet-coding.html",
+                      "title":  "DeepSeek-R1 vs Claude 3.5 Sonnet: Benchmarking LLMs for Multi-File AI Coding in 2026",
+                      "description":  "An in-depth developer comparison between DeepSeek-R1 and Anthropic Claude 3.5 Sonnet. Discover which reasoning model optimizes software engineering workflows, AI agent execution, and repository refactoring.",
+                      "image_url":  "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 21, 2026 (11:00 PM)",
+                      "publish_date":  "2026-06-21",
+                      "publish_time":  "23:00"
+                  },
+                  {
+                      "filename":  "build-ai-agents-python.html",
+                      "title":  "How to Build an AI-Powered Agent in 2026: A Step-by-Step Guide with Python",
+                      "description":  "Learn how to build a production-grade autonomous AI agent in 2026 using Python, modern agentic frameworks, and key optimization patterns for real-world tasks.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jun 16, 2026 (10:00 AM)",
+                      "publish_date":  "2026-06-16",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "vscode-vs-cursor-ai.html",
+                      "title":  "VS Code vs Cursor AI Editor: Why Millions of Developers Are Switching in 2026",
+                      "description":  "Compare VS Code and Cursor AI Editor in 2026. Explore native LLM integration, Composer mode multi-file edits, and why professional developers are switching.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 2, 2026",
+                      "publish_date":  "2026-06-02",
+                      "publish_time":  "10:00"
+                  },
+                  {
+                      "filename":  "claude-artifacts-react.html",
+                      "title":  "Claude 3.5 Sonnet Artifacts: Fast React Scaffolding \u0026 Component Design",
+                      "description":  "Master React component prototyping and scaffolding with Claude 3.5 Sonnet Artifacts. Learn how to write structured prompts for interactive UI, micro-animations, and production-ready code.",
+                      "image_url":  "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jun 3, 2026",
+                      "publish_date":  "2026-06-03",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "ergonomic-office-setup.html",
+                      "title":  "Ultimate Ergonomic Developer Desk Setup: Defeating Tech Neck \u0026 Wrist Pain",
+                      "description":  "Build the ultimate ergonomic desk setup as a software engineer. Compare split keyboards, vertical mice, monitor arm configurations, and active sitting solutions.",
+                      "image_url":  "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Setup",
+                      "date_display":  "Jun 4, 2026",
+                      "publish_date":  "2026-06-04",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "chatgpt-prompt-para.html",
+                      "title":  "ChatGPT Prompt Engineering \u0026 The PARA Method: Organizing Your AI Workspace",
+                      "description":  "Integrate ChatGPT prompt engineering principles with Tiago Forte\u0027s PARA system. Organize your AI instructions, context resources, projects, and archives dynamically.",
+                      "image_url":  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jun 5, 2026",
+                      "publish_date":  "2026-06-05",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "git-github-saas-founder.html",
+                      "title":  "Git \u0026 GitHub Releasing for Solo SaaS Founders: Auto-Changelogs \u0026 CI/CD",
+                      "description":  "Standardize release management as a solo founder. Master Git branching structures, GitHub Actions release automation, semantic versioning CI/CD, and auto-changelogs.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 6, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-06",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "anthropic-vs-openai-api.html",
+                      "title":  "Anthropic Claude API vs OpenAI API: Cost Optimization \u0026 Latency Strategies for SaaS Founders in 2026",
+                      "description":  "Compare Anthropic Claude and OpenAI APIs in 2026. Explore key features like prompt caching, token pricing strategies, latency optimization, and custom orchestration.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jun 7, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-07",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "nextjs-server-components-guide.html",
+                      "title":  "Mastering Next.js Server Components: Common Caching, Data Fetching \u0026 Hydration Pitfalls",
+                      "description":  "Learn to manage Next.js Server Components, Suspense boundaries, and hydration mismatch errors. Master developer caching architectures and optimize backend performance.",
+                      "image_url":  "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 8, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-08",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "digital-nomad-hubs-asia.html",
+                      "title":  "Top Digital Nomad Hubs in Southeast Asia for 2026: Cost, Internet Speed, \u0026 Visa Feasibility",
+                      "description":  "Reviewing Southeast Asia\u0027s best digital nomad destinations: Chiang Mai, Bali, Kuala Lumpur, and Da Nang. Compare internet speed, average monthly cost, and remote work visa options.",
+                      "image_url":  "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 9, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-09",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "nextjs-tailwind-cursorrules.html",
+                      "title":  "Writing Custom .cursorrules for Next.js \u0026 Tailwind CSS: The Ultimate Developer Blueprint",
+                      "description":  "Configure system rules and .cursorrules instructions for clean Tailwind styling and structured Next.js logic. Eliminate hallucination loops in Cursor editor projects.",
+                      "image_url":  "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 10, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-10",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "coolify-vs-aws-bootstrap.html",
+                      "title":  "Self-Hosting vs AWS: Why Solo Developers Are Switching to Coolify and Supabase in 2026",
+                      "description":  "Compare cost structures of Coolify, Supabase, and AWS for bootstrapped SaaS apps. Explore docker-compose setup, auto-deployments, and database backup configurations.",
+                      "image_url":  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 11, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-11",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "mechanical-keyboard-ergonomics.html",
+                      "title":  "The Ultimate Guide to Keyboard Ergonomics: Split Keyboards, Layouts, and QMK/VIA Re-mapping",
+                      "description":  "Ergonomic workspace configurations for software developers. Learn about split ortholinear layouts, custom keycaps, tenting accessories, and programming keymaps via QMK/VIA.",
+                      "image_url":  "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Setup",
+                      "date_display":  "Jun 12, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-12",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "rag-pipeline-embeddings-limit.html",
+                      "title":  "Building Production-Ready RAG Pipelines: Mitigating Vector Search Latency and Embedding Overlap",
+                      "description":  "Tackle semantic search challenges. Master vector chunk sizes, embedding overlapping rules, and indexing strategies using hybrid search tools and Pinecone databases.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jun 13, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-13",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "saas-security-clerk-oauth.html",
+                      "title":  "SaaS Security Checklist 2026: Setting Up Clerk OAuth, JWT Verification, \u0026 Rate Limiting",
+                      "description":  "Secure your serverless SaaS application. Learn how to validate JWT signatures, manage session persistence, integrate Clerk OAuth providers, and avoid API flooding.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 14, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-14",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "remote-work-travel-tech-stack.html",
+                      "title":  "Essential Travel Tech Stack for Remote Developers: eSIMs, Global Accounts, and Security VPNs",
+                      "description":  "The technical packing checklist for digital nomad developers. Learn how to configure wireguard VPNs, manage mobile data with eSIM cards, and handle payments globally.",
+                      "image_url":  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 15, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-15",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "digital-nomad-visas-2026.html",
+                      "title":  "Top High-Yield Digital Nomad Visas for 2026: Tax Residency \u0026 Setup",
+                      "description":  "Compare the best global digital nomad visas for 2026. Explore legal tax structures, income thresholds, and how to optimize your global remote workspace.",
+                      "image_url":  "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 16, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-16",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "cursor-ai-productivity.html",
+                      "title":  "The Ultimate Cursor AI Setup Guide: Custom .cursorrules \u0026 Keyboard Shortcuts",
+                      "description":  "Configure Cursor AI editor for elite software development speed. Master custom .cursorrules setups, AI settings, and high-performance keyboard shortcuts.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 17, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-17",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "claude-coding-prompts.html",
+                      "title":  "Advanced Claude 3.5 Sonnet Prompt Architecture: Refactoring \u0026 Testing",
+                      "description":  "Master advanced Claude 3.5 Sonnet prompt engineering templates. Generate perfect integration tests, auto-refactor complex codebases, and eliminate AI hallucinations.",
+                      "image_url":  "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Prompting",
+                      "date_display":  "Jun 18, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-18",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "make-automation-chatgpt.html",
+                      "title":  "Building No-Code AI Workflows: Connecting Make.com with ChatGPT",
+                      "description":  "Learn to build automated, no-code workflows combining Make.com and ChatGPT. Connect databases, trigger email sequences, and automate content pipelines easily.",
+                      "image_url":  "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Automation",
+                      "date_display":  "Jun 19, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-19",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "ssg-jekyll-hugo-astro.html",
+                      "title":  "Jekyll vs Hugo vs Astro: Choosing the Best Static Site Generator in 2026",
+                      "description":  "Compare Jekyll, Hugo, and Astro for building high-performance static websites. Explore speed, developer experience, SEO optimization, and deployment pathways.",
+                      "image_url":  "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 20, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-20",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "technical-seo-robots-sitemap.html",
+                      "title":  "Technical SEO Checklist: Optimizing robots.txt and XML Sitemaps",
+                      "description":  "Ensure search engine crawlers index your site efficiently. A complete technical SEO guide to configuring robots.txt, dynamic XML sitemaps, and crawl budgets.",
+                      "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "SEO \u0026 Marketing",
+                      "date_display":  "Jun 21, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-21",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "webp-image-seo-optimization.html",
+                      "title":  "Next-Gen Image Optimization: WebP Conversion for Page Speed and SEO",
+                      "description":  "Speed up your website\u0027s loading times and satisfy Google Core Web Vitals by converting images to WebP. Explore compression tools and responsive markup strategies.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 22, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-22",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "nodejs-express-api-server.html",
+                      "title":  "Backend Development 101: Building Your First API Server with Node.js and Express",
+                      "description":  "A beginner-friendly guide to building a RESTful API server using Node.js and the Express framework. Learn routing, middleware setup, and request-response cycles.",
+                      "image_url":  "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 23, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-23",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "chatgpt-advanced-data-analysis.html",
+                      "title":  "No-Code Data Science: Master ChatGPT Advanced Data Analysis",
+                      "description":  "Leverage ChatGPT Advanced Data Analysis to clean dirty datasets, extract key business metrics, and generate charts without coding.",
+                      "image_url":  "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Productivity",
+                      "date_display":  "Jun 24, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-24",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "github-projects-kanban-solo.html",
+                      "title":  "GitHub Projects \u0026 Issue Tracking: Setting Up a Kanban Workflow for Solo Developers",
+                      "description":  "Streamline your development cycles using GitHub Projects and issues. Learn how to configure custom Kanban boards, prioritize tasks, and manage release milestones.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Productivity",
+                      "date_display":  "Jun 25, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-25",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "gemini-ai-guide.html",
+                      "title":  "Mastering Google Gemini AI: Native Multimodal Strategies to Outperform ChatGPT",
+                      "description":  "Unlock the full potential of Google\u0027s native multimodal AI Gemini. Explore key features like massive context windows, Google Workspace integration, and Code Assist.",
+                      "image_url":  "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Productivity",
+                      "date_display":  "Jun 26, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-26",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "tailwind-css-v4-features.html",
+                      "title":  "What\u0027s New in Tailwind CSS v4.0: High-Performance Utility Styling for Next.js",
+                      "description":  "Unlock the maximum potential of Tailwind CSS v4.0. Learn about the new Rust-based compiler engine, CSS-native configuration files, and seamless utility integrations.",
+                      "image_url":  "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 27, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-27",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "typescript-advanced-types-guide.html",
+                      "title":  "Mastering TypeScript Advanced Types: Generics, Mapped Types, and Conditional Utility Types",
+                      "description":  "Elevate your JavaScript development with advanced TypeScript patterns. Master utility types, custom generics, mapped properties, and runtime type assertions.",
+                      "image_url":  "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 28, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-28",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "jwt-oauth2-security-api.html",
+                      "title":  "API Authentication Best Practices: JWT Signatures, OAuth 2.0, and Clerk Setup",
+                      "description":  "Secure your web applications and API servers. Compare JWT token storage, configure OAuth 2.0 social login, and integrate Clerk authentication services.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 29, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-29",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "react-state-management-2026.html",
+                      "title":  "React State Management in 2026: Comparing Zustand, Recoil, and Context API",
+                      "description":  "Choose the best state management library for your React projects in 2026. Compare Zustand, Recoil, Redux Toolkit, and built-in Context APIs.",
+                      "image_url":  "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 30, 2026 (2:00 PM)",
+                      "publish_date":  "2026-06-30",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "cursor-ai-composer-guide.html",
+                      "title":  "How to Use Cursor AI Composer for Multi-File Refactoring",
+                      "description":  "Master Cursor\u0027s Composer mode to edit and refactor multiple files simultaneously. Learn keyboard shortcuts, file context linking, and AI debugging tips.",
+                      "image_url":  "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 7, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-07",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "v0-dev-ai-ui-design.html",
+                      "title":  "Rapid UI Prototyping with Vercel v0: A Developer\u0027s Guide",
+                      "description":  "Learn how to generate React and Tailwind CSS components using Vercel v0. Explore prompt engineering for UI design and exporting clean code to Next.js.",
+                      "image_url":  "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 8, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-08",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "bolt-new-ai-stack.html",
+                      "title":  "Building Fullstack Apps in the Browser with Bolt.new",
+                      "description":  "Discover Bolt.new, the web-based development environment that builds, runs, and deploys fullstack applications from a single text prompt.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI \u0026 Productivity",
+                      "date_display":  "Jun 9, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-09",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "self-hosting-n8n-vps.html",
+                      "title":  "Self-Hosting n8n on a VPS: Automated Workflows for Free",
+                      "description":  "Save money on Zapier by self-hosting n8n on a cheap VPS. Step-by-step guide to Docker setup, SSL certification, and webhook integrations.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 10, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-10",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "cloudflare-tunnel-local-dev.html",
+                      "title":  "Secure Local Web Servers with Cloudflare Tunnels",
+                      "description":  "Expose your local development environment to the internet securely without opening firewall ports. Setup Cloudflare Tunnels for webhook testing.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 11, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-11",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "nextjs-static-site-adsense.html",
+                      "title":  "Optimizing Next.js Static Sites for Google AdSense Approval",
+                      "description":  "Step-by-step guide to getting Google AdSense approval on Next.js Static Site Generation (SSG) blogs. Fix layout shifts and ad rendering loops.",
+                      "image_url":  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 12, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-12",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "supabase-rls-security-rules.html",
+                      "title":  "Supabase Row Level Security (RLS): Protecting User Data",
+                      "description":  "Master database security in Supabase. Write robust Row Level Security rules, handle public tables, and secure API keys in client-side apps.",
+                      "image_url":  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 13, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-13",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "docker-containers-beginner-dev.html",
+                      "title":  "Docker Containers 101: A Beginner Developer\u0027s Guide",
+                      "description":  "Understand containerization basics. Build Dockerfiles, manage multi-container apps with Docker Compose, and simplify local dev environments.",
+                      "image_url":  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 14, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-14",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "github-copilot-workspace-review.html",
+                      "title":  "GitHub Copilot Workspace: Next-Gen AI Agent Development",
+                      "description":  "An in-depth review of GitHub Copilot Workspace. Learn how AI agents plan, execute, and debug code modifications directly inside GitHub repositories.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jun 15, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-15",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "digital-nomad-insurance-safetywing.html",
+                      "title":  "Choosing Health Insurance for Digital Nomads: SafetyWing Review",
+                      "description":  "Compare medical and travel insurance options for remote workers. An honest review of SafetyWing Nomad Insurance coverage, claims, and pricing.",
+                      "image_url":  "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 16, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-16",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "setup-personal-vpn-wireguard.html",
+                      "title":  "Setting Up a Personal WireGuard VPN Server on Ubuntu",
+                      "description":  "Protect your data on public Wi-Fi networks. Install and configure a WireGuard VPN server on a cheap Ubuntu VPS for encrypted remote work.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 17, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-17",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "monetizing-open-source-projects.html",
+                      "title":  "How to Monetize Your Open-Source Software Projects",
+                      "description":  "Explore sustainable funding models for open-source developers. Learn about open-core, hosting SaaS, GitHub Sponsors, and corporate sponsorships.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Productivity",
+                      "date_display":  "Jun 18, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-18",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "notion-api-dashboard-builder.html",
+                      "title":  "Building Custom Dashboards with the Notion API and Node.js",
+                      "description":  "Connect your databases to custom frontend interfaces. Integrate the Notion API to fetch, update, and display project metrics dynamically.",
+                      "image_url":  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Productivity",
+                      "date_display":  "Jun 19, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-19",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "tailwind-css-utility-vs-inline.html",
+                      "title":  "Tailwind CSS Utility Classes vs Inline CSS Styles",
+                      "description":  "An analytical comparison of Tailwind utility-first styling versus native inline styles. Discover build performance differences and class bloating issues.",
+                      "image_url":  "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 20, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-20",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "core-web-vitals-cls-fix.html",
+                      "title":  "How to Fix Cumulative Layout Shift (CLS) in Modern Web Apps",
+                      "description":  "Improve your Google PageSpeed Insights score by fixing Cumulative Layout Shift. Learn to reserve spaces for images, ads, and dynamic content.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 21, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-21",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "hugo-static-site-github-pages.html",
+                      "title":  "Hosting Hugo Blogs on GitHub Pages: Zero Cost Web Deployment",
+                      "description":  "Build a lightning-fast blog using Hugo and host it for free on GitHub Pages. Configure custom domains, SSL certificates, and auto builds.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 22, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-22",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "remote-developer-salary-negotiation.html",
+                      "title":  "Salary Negotiation Tips for Global Remote Software Engineers",
+                      "description":  "Negotiate higher remote salaries with US and EU companies. Master market rate research, handling currency conversions, and equity negotiations.",
+                      "image_url":  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 23, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-23",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "passive-income-micro-saas.html",
+                      "title":  "Building Micro-SaaS Products for Recurring Passive Income",
+                      "description":  "Identify small problems and solve them with Micro-SaaS. Explore market validation, building MVPs with Next.js, and automated Stripe billing.",
+                      "image_url":  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 24, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-24",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "resend-email-api-react-email.html",
+                      "title":  "Sending Transactional Emails with Resend and React Email",
+                      "description":  "Design and send modern HTML emails programmatically. Integrate Resend API with React Email for responsive layout rendering.",
+                      "image_url":  "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 25, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-25",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "upstash-redis-rate-limiting.html",
+                      "title":  "Implementing API Rate Limiting with Upstash Serverless Redis",
+                      "description":  "Protect serverless functions and endpoints from abuse. Set up Upstash Redis with Next.js middleware for low-latency rate limiting.",
+                      "image_url":  "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 26, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-26",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "pnpm-vs-npm-yarn-performance.html",
+                      "title":  "pnpm vs npm vs Yarn: Package Manager Performance in 2026",
+                      "description":  "Understand why developers are migrating to pnpm in 2026. Explore hard link node_modules, disk space savings, and fast build compilation.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Developer Productivity",
+                      "date_display":  "Jun 27, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-27",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "seo-auditing-screaming-frog.html",
+                      "title":  "Technical SEO Auditing for Web Developers with Screaming Frog",
+                      "description":  "Find broken links, duplicate meta tags, and indexing issues. Perform a complete technical SEO audit of your site using Screaming Frog.",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Web Development",
+                      "date_display":  "Jun 28, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-28",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "digital-nomad-taxation-foreign-income.html",
+                      "title":  "Tax Compliance and Foreign Income for Global Digital Nomads",
+                      "description":  "Navigate complex global tax systems. Learn about FEIE for US citizens, tax residency rules in Europe, and staying compliant while traveling.",
+                      "image_url":  "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Digital Nomad Life",
+                      "date_display":  "Jun 29, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-29",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "vercel-alternatives-indie-hackers.html",
+                      "title":  "Vercel Alternatives in 2026: Coolify, Dokku, and Render",
+                      "description":  "Review top hosting alternatives for indie hackers in 2026. Compare Vercel serverless limitations with self-hosted VPS and Docker PaaS options.",
+                      "image_url":  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "DevOps \u0026 SaaS",
+                      "date_display":  "Jun 30, 2026 (07:00 AM)",
+                      "publish_date":  "2026-06-30",
+                      "publish_time":  "07:00"
+                  },
+                  {
+                      "filename":  "github-copilot-vs-cursor-ai.html",
+                      "image_url":  "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "Coding",
+                      "date_display":  "Jun 18, 2026 (08:20 AM)",
+                      "title":  "GitHub Copilot vs Cursor AI: Definitive Developer Tool Comparison in 2026",
+                      "description":  "Evaluate GitHub Copilot and Cursor AI for software engineering. Discover which tool maximizes coding speed, multi-file edits, and project comprehension.",
+                      "publish_date":  "2026-06-18",
+                      "publish_time":  "08:20"
+                  },
+                  {
+                      "filename":  "claude-artifacts-no-code-guide.html",
+                      "image_url":  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Tools",
+                      "date_display":  "Jun 18, 2026",
+                      "title":  "Claude 3.5 Sonnet Artifacts: The Ultimate Guide to No-Code Software Development",
+                      "description":  "Unlock the potential of Claude 3.5 Sonnet Artifacts for no-code development. Learn how to generate, refine, and deploy full web applications without writing code.",
+                      "publish_date":  "2026-06-18",
+                      "publish_time":  "08:00"
+                  },
+                  {
+                      "filename":  "v0-vercel-frontend-generation.html",
+                      "image_url":  "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Tools",
+                      "date_display":  "Jun 19, 2026",
+                      "title":  "Vercel v0: The Ultimate Guide to Generative Frontend UI Development",
+                      "description":  "Master Vercel\u0027s v0 generative UI platform. Learn how to write effective prompts to build modern, responsive React and Tailwind CSS interfaces instantly.",
+                      "publish_date":  "2026-06-19",
+                      "publish_time":  "08:30"
+                  },
+                  {
+                      "filename":  "programmatic-seo-solo-developers.html",
+                      "title":  "Programmatic SEO for Solo Developers: Automating High-CPC Organic Traffic Pipelines",
+                      "description":  "Master programmatic SEO as a solo developer in 2026. Learn how to target high-CPC keywords, generate high-quality pages with AI, and optimize Google AdSense earnings.",
+                      "image_url":  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "SEO \u0026 Marketing",
+                      "date_display":  "Jun 19, 2026",
+                      "publish_date":  "2026-06-19",
+                      "publish_time":  "10:00"
+                  },
+                  {
+                      "filename":  "windsurf-vs-cursor-ai-editor.html",
+                      "title":  "Windsurf Editor vs Cursor: A Developer\u0027s Hands-On Comparison in 2026",
+                      "description":  "An in-depth hands-on comparison between Windsurf Editor and Cursor AI. Discover which AI-powered IDE provides superior agentic loops, multi-file code editing, and context awareness in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jul 1, 2026 (06:30 AM)",
+                      "publish_date":  "2026-07-01",
+                      "publish_time":  "06:30"
+                  },
+                  {
+                      "filename":  "roo-code-autonomous-ai-coding-agent.html",
+                      "title":  "Roo Code (Roo Cline): The Ultimate Autonomous AI Coding Agent for VS Code",
+                      "description":  "Discover how Roo Code (Roo Cline) transforms VS Code with autonomous agentic coding. Learn how to configure custom system prompts, select the best LLMs, and automate software development.",
+                      "image_url":  "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Code Editors",
+                      "date_display":  "Jul 9, 2026",
+                      "publish_date":  "2026-07-09",
+                      "publish_time":  "22:00"
+                  },
+                  {
+                      "filename":  "claude-37-sonnet-hybrid-reasoning-developer-guide.html",
+                      "title":  "Mastering Claude 3.7 Sonnet Hybrid Reasoning: A Guide for Developers",
+                      "description":  "Explore Claude 3.7 Sonnet\u0027s hybrid reasoning capabilities. Learn how to toggle thinking budgets, optimize API parameters, and execute complex codebase edits.",
+                      "image_url":  "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 12, 2026",
+                      "publish_date":  "2026-07-12",
+                      "publish_time":  "15:00"
+                  },
+                  {
+                      "filename":  "openai-o3-mini-vs-claude-37-sonnet.html",
+                      "title":  "OpenAI o3-mini vs Claude 3.7 Sonnet: Benchmarking Reasoning Models for Developers",
+                      "description":  "Compare OpenAI o3-mini and Claude 3.7 Sonnet for developer workflows. Analyze speed, reasoning effort, API parameters, and tool execution in 2026.",
+                      "image_url":  "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Jul 17, 2026",
+                      "publish_date":  "2026-07-17",
+                      "publish_time":  "10:30"
+                  }
+              ]
 }
