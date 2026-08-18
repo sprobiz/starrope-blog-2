@@ -97,17 +97,17 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
 
-    with open(os.path.join(project_root, 'schedule.json'), 'r', encoding='utf-8') as f:
+    with open(os.path.join(project_root, 'schedule.json'), 'r', encoding='utf-8-sig') as f:
         schedule = json.load(f)
 
     # Read index.html & sitemap.xml
     index_path = os.path.join(project_root, 'index.html')
     sitemap_path = os.path.join(project_root, 'sitemap.xml')
 
-    with open(index_path, 'r', encoding='utf-8') as f:
+    with open(index_path, 'r', encoding='utf-8-sig') as f:
         index_content = f.read()
 
-    with open(sitemap_path, 'r', encoding='utf-8') as f:
+    with open(sitemap_path, 'r', encoding='utf-8-sig') as f:
         sitemap_content = f.read()
 
     published_count = 0

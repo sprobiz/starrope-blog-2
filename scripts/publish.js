@@ -6,9 +6,9 @@ const schedulePath = path.join(projectRoot, 'schedule.json');
 const indexPath = path.join(projectRoot, 'index.html');
 const sitemapPath = path.join(projectRoot, 'sitemap.xml');
 
-const schedule = JSON.parse(fs.readFileSync(schedulePath, 'utf8'));
-let indexContent = fs.readFileSync(indexPath, 'utf8');
-let sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
+const schedule = JSON.parse(fs.readFileSync(schedulePath, 'utf8').replace(/^\uFEFF/, ''));
+let indexContent = fs.readFileSync(indexPath, 'utf8').replace(/^\uFEFF/, '');
+let sitemapContent = fs.readFileSync(sitemapPath, 'utf8').replace(/^\uFEFF/, '');
 
 function generateCardHtml(post) {
   return `        <!-- Post: ${post.filename} -->
