@@ -1,6 +1,16 @@
 {
     "posts":  [
                   {
+                      "filename":  "autonomous-ai-agent-security-nemo-guardrails-mcp.html",
+                      "title":  "Architecting Secure Autonomous AI Agents: Implementing NeMo Guardrails, Llama Guard 3, and MCP Tool Permissioning (2026 Guide)",
+                      "description":  "Learn how to secure production autonomous AI agents against prompt injection, tool abuse, and data leakage in 2026. Step-by-step guide to NeMo Guardrails, Llama Guard 3, and MCP tool security.",
+                      "image_url":  "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Security & Systems",
+                      "date_display":  "Aug 20, 2026",
+                      "publish_date":  "2026-08-20",
+                      "publish_time":  "08:00"
+                  },
+                  {
                       "filename":  "agentic-memory-zep-mem0-hierarchical-retrieval.html",
                       "title":  "Architecting Enterprise Agentic Memory Systems: Implementing Mem0, Zep, and Hierarchical Retrieval in Autonomous AI Pipelines (2026)",
                       "description":  "Learn how to architect long-term, stateful agentic memory for production AI agents in 2026. Compare Mem0 vs Zep, implement hierarchical episodic \u0026 semantic memory, and integrate with Model Context Protocol (MCP).",
