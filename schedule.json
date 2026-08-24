@@ -1,6 +1,16 @@
 {
     "posts":  [
                   {
+                      "filename":  "autogen-v04-mcp-deepseek-r1-multiagent-swarm.html",
+                      "title":  "Architecting Production Multi-Agent Swarms with AutoGen v0.4, Model Context Protocol (MCP), and DeepSeek-R1 (2026 Guide)",
+                      "description":  "Learn how to build production-grade, asynchronous multi-agent swarms in 2026 using Microsoft AutoGen v0.4, Model Context Protocol (MCP) tool integration, and DeepSeek-R1 extended reasoning models.",
+                      "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 24, 2026",
+                      "publish_date":  "2026-08-24",
+                      "publish_time":  "08:00"
+                  },
+                  {
                       "filename":  "autonomous-ai-agent-security-nemo-guardrails-mcp.html",
                       "title":  "Architecting Secure Autonomous AI Agents: Implementing NeMo Guardrails, Llama Guard 3, and MCP Tool Permissioning (2026 Guide)",
                       "description":  "Learn how to secure production autonomous AI agents against prompt injection, tool abuse, and data leakage in 2026. Step-by-step guide to NeMo Guardrails, Llama Guard 3, and MCP tool security.",
