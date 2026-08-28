@@ -1,6 +1,16 @@
 {
     "posts":  [
                   {
+                      "filename":  "claude-37-sonnet-vs-gpt-45-agentic-coding-benchmark.html",
+                      "title":  "Claude 3.7 Sonnet vs GPT-4.5 vs DeepSeek-R1: 2026 Agentic Coding & Benchmark Comparison",
+                      "description":  "Comprehensive 2026 benchmark comparison of Claude 3.7 Sonnet, GPT-4.5 Orion, and DeepSeek-R1 for autonomous agentic coding, SWE-bench Verified tasks, MCP tool integration, and enterprise software engineering.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+                      "tag":  "AI Engineering",
+                      "date_display":  "Aug 29, 2026",
+                      "publish_date":  "2026-08-29",
+                      "publish_time":  "08:00"
+                  },
+                  {
                       "filename":  "autogen-v04-mcp-deepseek-r1-multiagent-swarm.html",
                       "title":  "Architecting Production Multi-Agent Swarms with AutoGen v0.4, Model Context Protocol (MCP), and DeepSeek-R1 (2026 Guide)",
                       "description":  "Learn how to build production-grade, asynchronous multi-agent swarms in 2026 using Microsoft AutoGen v0.4, Model Context Protocol (MCP) tool integration, and DeepSeek-R1 extended reasoning models.",
