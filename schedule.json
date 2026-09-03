@@ -1,6 +1,16 @@
 {
     "posts":  [
                   {
+                      "filename":  "self-healing-cicd-agents-claude-37-mcp-2026.html",
+                      "title":  "Building Self-Healing CI/CD & DevOps AI Agents with Claude 3.7 Sonnet, MCP Tools, and GitHub Actions (2026 Architecture Guide)",
+                      "description":  "Complete 2026 engineering guide to architecting autonomous, self-healing CI/CD pipeline agents using Claude 3.7 Sonnet extended reasoning, Model Context Protocol (MCP) tools, and GitHub Actions.",
+                      "image_url":  "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
+                      "tag":  "AI Engineering & DevOps",
+                      "date_display":  "Sep 3, 2026",
+                      "publish_date":  "2026-09-03",
+                      "publish_time":  "22:00"
+                  },
+                  {
                       "filename":  "claude-37-sonnet-vs-gpt-45-agentic-coding-benchmark.html",
                       "title":  "Claude 3.7 Sonnet vs GPT-4.5 vs DeepSeek-R1: 2026 Agentic Coding & Benchmark Comparison",
                       "description":  "Comprehensive 2026 benchmark comparison of Claude 3.7 Sonnet, GPT-4.5 Orion, and DeepSeek-R1 for autonomous agentic coding, SWE-bench Verified tasks, MCP tool integration, and enterprise software engineering.",
