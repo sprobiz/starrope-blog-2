@@ -839,6 +839,26 @@
                       "date_display":  "Jul 17, 2026",
                       "publish_date":  "2026-07-17",
                       "publish_time":  "10:30"
+                  },
+                  {
+                      "filename":  "production-agentic-rag-claude-37-qdrant-hyde.html",
+                      "title":  "Production Agentic RAG Architecture with Claude 3.7 Sonnet, Qdrant Hybrid Search & HyDE (2026 Guide)",
+                      "description":  "Master production-grade Agentic RAG in 2026. Learn how to architect hybrid retrieval with Qdrant, Hypothetical Document Embeddings (HyDE), Claude 3.7 Sonnet reasoning, and Cohere Rerank v3.",
+                      "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering & Architecture",
+                      "date_display":  "Sep 9, 2026",
+                      "publish_date":  "2026-09-09",
+                      "publish_time":  "14:00"
+                  },
+                  {
+                      "filename":  "vllm-deepseek-r1-high-throughput-inference-guide.html",
+                      "title":  "vLLM & DeepSeek-R1 High-Throughput Production Inference Guide: FP8, PagedAttention & GPU Optimization (2026)",
+                      "description":  "Deploy DeepSeek-R1 models in production with vLLM in 2026. Master FP8 quantization, PagedAttention memory management, Tensor Parallelism, and low-latency Docker deployments.",
+                      "image_url":  "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Infrastructure & Cloud",
+                      "date_display":  "Sep 9, 2026",
+                      "publish_date":  "2026-09-09",
+                      "publish_time":  "15:30"
                   }
               ]
 }
