@@ -1,20 +1,30 @@
-{
+﻿{
     "posts":  [
                   {
+                      "filename":  "high-concurrency-mcp-servers-fastmcp-sse-redis.html",
+                      "title":  "Architecting High-Concurrency Model Context Protocol (MCP) Servers with FastMCP, SSE Transport, and Redis Streams (2026 Production Guide)",
+                      "description":  "Master high-concurrency Model Context Protocol (MCP) server architecture in 2026. Learn how to scale FastMCP using Server-Sent Events (SSE), Redis Streams message queues, and Claude 3.7 Sonnet agent tool calling.",
+                      "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering \u0026 Distributed Systems",
+                      "date_display":  "Sep 9, 2026",
+                      "publish_date":  "2026-09-09",
+                      "publish_time":  "08:00"
+                  },
+                  {
                       "filename":  "self-healing-cicd-agents-claude-37-mcp-2026.html",
-                      "title":  "Building Self-Healing CI/CD & DevOps AI Agents with Claude 3.7 Sonnet, MCP Tools, and GitHub Actions (2026 Architecture Guide)",
+                      "title":  "Building Self-Healing CI/CD \u0026 DevOps AI Agents with Claude 3.7 Sonnet, MCP Tools, and GitHub Actions (2026 Architecture Guide)",
                       "description":  "Complete 2026 engineering guide to architecting autonomous, self-healing CI/CD pipeline agents using Claude 3.7 Sonnet extended reasoning, Model Context Protocol (MCP) tools, and GitHub Actions.",
-                      "image_url":  "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
-                      "tag":  "AI Engineering & DevOps",
+                      "image_url":  "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering \u0026 DevOps",
                       "date_display":  "Sep 3, 2026",
                       "publish_date":  "2026-09-03",
                       "publish_time":  "22:00"
                   },
                   {
                       "filename":  "claude-37-sonnet-vs-gpt-45-agentic-coding-benchmark.html",
-                      "title":  "Claude 3.7 Sonnet vs GPT-4.5 vs DeepSeek-R1: 2026 Agentic Coding & Benchmark Comparison",
+                      "title":  "Claude 3.7 Sonnet vs GPT-4.5 vs DeepSeek-R1: 2026 Agentic Coding \u0026 Benchmark Comparison",
                       "description":  "Comprehensive 2026 benchmark comparison of Claude 3.7 Sonnet, GPT-4.5 Orion, and DeepSeek-R1 for autonomous agentic coding, SWE-bench Verified tasks, MCP tool integration, and enterprise software engineering.",
-                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
                       "tag":  "AI Engineering",
                       "date_display":  "Aug 29, 2026",
                       "publish_date":  "2026-08-29",
@@ -35,7 +45,7 @@
                       "title":  "Architecting Secure Autonomous AI Agents: Implementing NeMo Guardrails, Llama Guard 3, and MCP Tool Permissioning (2026 Guide)",
                       "description":  "Learn how to secure production autonomous AI agents against prompt injection, tool abuse, and data leakage in 2026. Step-by-step guide to NeMo Guardrails, Llama Guard 3, and MCP tool security.",
                       "image_url":  "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
-                      "tag":  "AI Security & Systems",
+                      "tag":  "AI Security \u0026 Systems",
                       "date_display":  "Aug 20, 2026",
                       "publish_date":  "2026-08-20",
                       "publish_time":  "08:00"
@@ -842,20 +852,20 @@
                   },
                   {
                       "filename":  "production-agentic-rag-claude-37-qdrant-hyde.html",
-                      "title":  "Production Agentic RAG Architecture with Claude 3.7 Sonnet, Qdrant Hybrid Search & HyDE (2026 Guide)",
+                      "title":  "Production Agentic RAG Architecture with Claude 3.7 Sonnet, Qdrant Hybrid Search \u0026 HyDE (2026 Guide)",
                       "description":  "Master production-grade Agentic RAG in 2026. Learn how to architect hybrid retrieval with Qdrant, Hypothetical Document Embeddings (HyDE), Claude 3.7 Sonnet reasoning, and Cohere Rerank v3.",
                       "image_url":  "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
-                      "tag":  "AI Engineering & Architecture",
+                      "tag":  "AI Engineering \u0026 Architecture",
                       "date_display":  "Sep 9, 2026",
                       "publish_date":  "2026-09-09",
                       "publish_time":  "14:00"
                   },
                   {
                       "filename":  "vllm-deepseek-r1-high-throughput-inference-guide.html",
-                      "title":  "vLLM & DeepSeek-R1 High-Throughput Production Inference Guide: FP8, PagedAttention & GPU Optimization (2026)",
+                      "title":  "vLLM \u0026 DeepSeek-R1 High-Throughput Production Inference Guide: FP8, PagedAttention \u0026 GPU Optimization (2026)",
                       "description":  "Deploy DeepSeek-R1 models in production with vLLM in 2026. Master FP8 quantization, PagedAttention memory management, Tensor Parallelism, and low-latency Docker deployments.",
                       "image_url":  "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
-                      "tag":  "AI Infrastructure & Cloud",
+                      "tag":  "AI Infrastructure \u0026 Cloud",
                       "date_display":  "Sep 9, 2026",
                       "publish_date":  "2026-09-09",
                       "publish_time":  "15:30"
