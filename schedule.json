@@ -1,11 +1,21 @@
 {
     "posts":  [
                   {
+                      "filename":  "building-production-ai-agents-dspy-claude-37-mcp.html",
+                      "title":  "Architecting Self-Optimizing AI Agents with DSPy 2.5, Claude 3.7 Sonnet, and Model Context Protocol (MCP) in 2026 (Production Guide)",
+                      "description":  "Master DSPy 2.5 and Claude 3.7 Sonnet for building self-optimizing autonomous AI agents in 2026. Step-by-step production guide to automated prompt compilation, teleprompters (MIPROv2), Model Context Protocol (MCP) tool integration, and CI/CD agent evaluation.",
+                      "image_url":  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering \u0026 Optimization",
+                      "date_display":  "Sep 23, 2026",
+                      "publish_date":  "2026-09-23",
+                      "publish_time":  "14:00"
+                  },
+                  {
                       "filename":  "realtime-voice-ai-agents-livekit-webrtc-deepgram.html",
                       "title":  "Architecting Real-Time Voice AI Agents with LiveKit, WebRTC, Deepgram Nova-3, and OpenAI Realtime API (2026 Production Guide)",
-                      "description":  "Master low-latency (<300ms) real-time voice AI agent architecture in 2026. Step-by-step production guide to LiveKit Agents, WebRTC audio streaming, Silero VAD, Deepgram Nova-3 STT, Cartesia TTS, and OpenAI Realtime API.",
-                      "image_url":  "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
-                      "tag":  "AI Engineering & Real-Time Systems",
+                      "description":  "Master low-latency (\u003c300ms) real-time voice AI agent architecture in 2026. Step-by-step production guide to LiveKit Agents, WebRTC audio streaming, Silero VAD, Deepgram Nova-3 STT, Cartesia TTS, and OpenAI Realtime API.",
+                      "image_url":  "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format\u0026fit=crop\u0026w=800\u0026q=80",
+                      "tag":  "AI Engineering \u0026 Real-Time Systems",
                       "date_display":  "Sep 23, 2026",
                       "publish_date":  "2026-09-23",
                       "publish_time":  "08:00"
