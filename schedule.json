@@ -1,5 +1,15 @@
-﻿{
+{
     "posts":  [
+                  {
+                      "filename":  "realtime-voice-ai-agents-livekit-webrtc-deepgram.html",
+                      "title":  "Architecting Real-Time Voice AI Agents with LiveKit, WebRTC, Deepgram Nova-3, and OpenAI Realtime API (2026 Production Guide)",
+                      "description":  "Master low-latency (<300ms) real-time voice AI agent architecture in 2026. Step-by-step production guide to LiveKit Agents, WebRTC audio streaming, Silero VAD, Deepgram Nova-3 STT, Cartesia TTS, and OpenAI Realtime API.",
+                      "image_url":  "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+                      "tag":  "AI Engineering & Real-Time Systems",
+                      "date_display":  "Sep 23, 2026",
+                      "publish_date":  "2026-09-23",
+                      "publish_time":  "08:00"
+                  },
                   {
                       "filename":  "high-concurrency-mcp-servers-fastmcp-sse-redis.html",
                       "title":  "Architecting High-Concurrency Model Context Protocol (MCP) Servers with FastMCP, SSE Transport, and Redis Streams (2026 Production Guide)",
