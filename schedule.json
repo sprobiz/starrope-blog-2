@@ -1,6 +1,16 @@
 {
     "posts": [
         {
+            "filename": "deepseek-r1-ollama-local-install-guide-2026.html",
+            "title": "2026년 딥시크 R1(DeepSeek-R1) 완벽 가이드: 로컬 PC 설치, Ollama 활용법 및 성능 최적화 총정리",
+            "description": "2026년 최신 딥시크 R1(DeepSeek-R1) 모델을 내 PC에 안전하게 무료로 설치하는 방법을 정리했습니다. Ollama 기반 로컬 구축, 추천 PC 사양, 성능 최적화 및 활용법을 완벽 가이드로 확인하세요.",
+            "image_url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
+            "tag": "AI 기술 & 활용",
+            "date_display": "Oct 6, 2026",
+            "publish_date": "2026-10-06",
+            "publish_time": "08:00"
+        },
+        {
             "filename": "claude-37-computer-use-playwright-gui-agents-2026.html",
             "title": "Architecting Production Computer-Use & GUI Automation AI Agents with Claude 3.7 Sonnet, Playwright, and Model Context Protocol (MCP) in 2026",
             "description": "Master autonomous Computer-Use and GUI AI agents in 2026. Step-by-step production guide to Claude 3.7 Sonnet vision reasoning, Playwright MCP tool integration, OSWorld benchmarks, accessibility tree grounding, and sandboxed security.",
